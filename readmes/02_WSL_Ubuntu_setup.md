@@ -36,6 +36,3 @@ At this point you are now totally ready to start developing on your machine usin
 It is also highly recommended you at least read through the next section as it talks about the very important differences between the Windows FS and the Ubuntu FS! 
 
 [Click Here](./03_understanding_the_file_systems.md) to learn more about the two File Systems.
-[Click Here](./04_updating_terminal_demo.md) to learn how to use WSL 
-
-
