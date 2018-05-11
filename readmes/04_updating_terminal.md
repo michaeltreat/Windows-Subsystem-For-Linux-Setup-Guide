@@ -73,7 +73,7 @@ export PS1="\[\e[m\]\[\e[36m\]\W\[\e[m\]\[\e[33m\]\`parse_git_branch\`\\$ "
 # Everything above this point is used to change how your terminal looks. If you ever want to update your terminals look, change things above here.
 
 
-# Nothing below here will change how your terminal looks, rather it will change some things about how it works.
+# Nothing below here will change how your terminal looks, rather, it will change some things about how it works.
 
 
 # This allows you to switch between the Ubuntu root and your Windows Root.
