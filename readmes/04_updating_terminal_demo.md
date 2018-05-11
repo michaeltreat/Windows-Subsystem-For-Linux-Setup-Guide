@@ -2,13 +2,18 @@
 
 This section will talk about how to update your Terminal's look, and will also talk more
 
-
-Typically we will always be working in the Windows File system, but for this task we need edit a file that lives on the Ubuntu File system. This means that we need to use nano to update the file, since Windows cannot update the Ubuntu file.
+Typically you will always be working in the Windows FS, but for this task we need edit a file that lives on the Ubuntu FS. This means that we need to use nano to update the file, since Windows cannot update the Ubuntu file without causing errors.
 
 At the end, this will add some coloring to your command line, and you command line will be formatted like this:
 
-`PathToCurrentDirectory[GitStatus]$`
-IE: `~/codefellows/201/about_me[monday-lab]$`
+`WorkingDirectory[GitBranch GitStatus]$`
+
+IE: about_me[monday-lab x!+]$
+
+### Add a Working Directory to Windows User
+
+This step will have you add a directory to the root of your Windows user.
+
 
 1. Open the Ubuntu app and type `ls -a`. You should see a .profile file there. If not, then type `sudo touch .profile`.
 2. Type `sudo nano .profile`. This will open the file in the commandline editor nano.
@@ -62,13 +67,20 @@ function parse_git_dirty {
 	fi
 }
 
+# PS1 is what actually defines what you command line prompt looks like.
+
 export PS1="\[\e[m\]\[\e[36m\]\W\[\e[m\]\[\e[33m\]\`parse_git_branch\`\\$ "
 
-alias cd~='cd ~/../../mnt/c/Users/
+# This allows you to switch between the Ubuntu root and your Windows Root.
+
+alias cd~='cd ~/../../mnt/c/Users/<Windows Username>/Development'
+
+# This brings you to your Windows Working directory immediatly when you open a new terminal.
+cd~
 
 ```
 
-4. After pasting that, you will need to add your Windows username right after the `/Users/`. IE: `/Users/MichaelLeonTreat/`
+4. After pasting that in, you will need to add your Windows username right after the `/Users/`. IE: `/Users/MichaelLeonTreat/`
 
 `cd ~` Will bring you to the Ubunutu root, but now typeing `cd~` with no spaces will take you back to the Windows root. This will help you navigate through the two files systems much quicker.
 
