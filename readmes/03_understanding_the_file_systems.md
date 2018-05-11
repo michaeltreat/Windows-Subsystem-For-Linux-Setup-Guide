@@ -33,6 +33,6 @@ You are actually in the Windows File System now as well! If you were to create a
 
 In the rare cases where you do need to edit an Ubuntu file, then you should use the built in code editor called nano, or use the CLI to install a different one. Just remember that you cannot use a GUI here, so you must edit Ubuntu files through the command line.
 
-## Using WSL and Updating your Terminal
+## Updating your Terminal
 
-Click [Next](04_updating_terminal_demo.md) to learn how to use WSL in your workflow, and to update your Terminal's look! 
+Click [Next](04_updating_terminal.md) to update your Terminal's look and feel! 
