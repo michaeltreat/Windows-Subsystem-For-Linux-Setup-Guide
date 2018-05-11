@@ -1,4 +1,4 @@
-# Updating your Terminal and Using WSL
+# Updating your Terminal
 
 This section will talk about how to update your Terminal's look, and will also talk more
 
@@ -10,10 +10,9 @@ At the end, this will add some coloring to your command line, and you command li
 
 IE: about_me[monday-lab x!+]$
 
-### Add a Working Directory to Windows User
+### Updating the .profile file
 
-This step will have you add a directory to the root of your Windows user.
-
+In order to change how your terminal looks, we need to add some code to a file that lives in your root Ubuntu user's root directory.
 
 1. Open the Ubuntu app and type `ls -a`. You should see a .profile file there. If not, then type `sudo touch .profile`.
 2. Type `sudo nano .profile`. This will open the file in the commandline editor nano.
@@ -68,24 +67,45 @@ function parse_git_dirty {
 }
 
 # PS1 is what actually defines what you command line prompt looks like.
-
 export PS1="\[\e[m\]\[\e[36m\]\W\[\e[m\]\[\e[33m\]\`parse_git_branch\`\\$ "
 
-# This allows you to switch between the Ubuntu root and your Windows Root.
 
-alias cd~='cd ~/../../mnt/c/Users/<Windows Username>/Development'
+# Everything above this point is used to change how your terminal looks. If you ever want to update your terminals look, change things above here.
+
+
+# Nothing below here will change how your terminal looks, rather it will change some things about how it works.
+
+
+# This allows you to switch between the Ubuntu root and your Windows Root.
+alias cd~='cd ~/../../mnt/c/Users/<Windows Username>/'
 
 # This brings you to your Windows Working directory immediatly when you open a new terminal.
 cd~
 
 ```
 
-4. After pasting that in, you will need to add your Windows username right after the `/Users/`. IE: `/Users/MichaelLeonTreat/`
-
-`cd ~` Will bring you to the Ubunutu root, but now typeing `cd~` with no spaces will take you back to the Windows root. This will help you navigate through the two files systems much quicker.
+4. After pasting that in, you will need to add your Windows username right after `/Users/`. IE: `/Users/MichaelLeonTreat/`. Make sure to get the final `'` in there!
 
 5. After that you're done in this editor, so press `ctrl + x` at the same time to quit. It will ask if you want to save changes. Hit `y` and the editor will save your changes. It will then ask what to name the file. Just hit enter to keep the same name. 
 
-6. Close the window and open up a Windows PowerShell and type `wsl`. You should see that you command line has changed! If you have any issues with this then please see a TA or instructor, or send me a message @michael.leon.treat@gmail.com and we'll help you out!
+And you're done! 
 
-Note that you can build your own a custom commandline prompt from [ezprompt.net](ezprompt.net) and use they code they provide instead of the code I have here!
+### Extra Info
+
+1. In the file you pasted there was a line at the bottom that started with alias. What this does is adds a unique command to your terminal. Now when you type `cd~` it will bring you to the root of your Windows User! This makes navigating between the two file systems super easy. 
+
+- To navigate to the Ubuntu root, you will type the normal `cd ~`. That one comes with a space.
+- To navigate to the Windows Root, you will type `cd~` with NO space!.
+
+2. If you decide to add a directory to your Windows User's root to hold all of your work, IE: `/Users/MichaelLeonTreat/Development`, you can come back to this file and update the line with the `cd~` alias so that it moves directly into that directory. Just add the name of the directory to the end of the path after your username.
+
+3. In case you ever need it, the Ubuntu FS lives on your Windows FS on the path that looks very similar to this:
+
+`C:\Users\<user>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs`
+
+4. If you want to create your own custom commandline prompt you can check out [bashrcgenerator.com](bashrcgenerator.com) or [ezprompt.net](ezprompt.net) and use the code that provide instead of the code here. 
+
+
+### Next
+
+[next]()
