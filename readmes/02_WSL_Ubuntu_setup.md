@@ -25,4 +25,17 @@ This will install the needed files. Follow any directions that pop up and restar
 
 1. It will ask you to enter a username. This will be the root/admin user for the Ubuntu FS. 
 1. It will then ask you to enter and confirm a password. It's recommended it's not too long as you may have to type it a lot. Also note that it will protect your password by note displaying it to the screen when you type, but it is registering your key strokes.
-1. Finally, the prompt will change and you will be on a command line. Type `pwd` to see where you currently are in the FS.
+1. Finally, the prompt will change and you will be on a command line. Type `pwd` to see where you currently are in the FS. Note that you should be at `/home/<your username>`. This is the root level of your Ubuntu user!
+
+### Learning your File Systems
+
+At this point you are now totally ready to start developing on your machine using the Ubuntu app as your POSIX env! It is recommended that you use the Ubuntu FS for installing and running software and the Windows FS for everything else.
+
+**Important!!**
+
+It is also highly recommended you at least read through the next section as it talks about the very important differences between the Windows FS and the Ubuntu FS! 
+
+[Click Here](./03_understanding_the_file_systems.md) to learn more about the two File Systems.
+[Click Here](./04_updating_terminal_demo.md) to learn how to use WSL 
+
+
