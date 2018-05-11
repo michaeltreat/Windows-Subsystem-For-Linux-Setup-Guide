@@ -11,7 +11,7 @@ There are 2 files systems here:
 
 It is very important to know which file system you are in.
 
-- Open the Ubuntu app and type `pwd`. Assumuing you havn't changed any settings yet, you'll notice that it say something like `/home/<your username>`
+- Open the Ubuntu app and type `pwd`. Assumuing you havn't changed anything yet, you'll notice that it say something like `/home/<your username>`
 
 This `/home/` means that you are in the Ubuntu FS. 
 
