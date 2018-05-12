@@ -99,7 +99,7 @@ And you're done!
 
 1. In the file you pasted there was a section at the bottom that exports `wr` and sets up the `cdwr` alias. What this does is adds a unique variable and a command to your terminal.
 
-**$wr :**
+- **$wr :**
 
 If you want to use a relative path, but don't want to go all the way up to the Ubuntu FS and then work down to the Windows FS, you can use the `$wr` variable as a shortcut to the Windows root instead. IE: 
 
@@ -109,7 +109,7 @@ If you want to use a relative path, but don't want to go all the way up to the U
 
 This also works with tab completion as well, which is awesome.
 
-**cdwr :**
+- **cdwr :**
 Now when you type `cdwr` it will bring you to the root of your Windows User! This makes navigating between the two file systems super easy. 
 
 - To navigate to the Ubuntu root, you will type the normal `cd ~`.
