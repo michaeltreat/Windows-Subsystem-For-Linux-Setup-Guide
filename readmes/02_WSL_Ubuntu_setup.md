@@ -2,6 +2,8 @@
 
 Before you begin check to make sure that you have the [most recent version of Windows 10](https://support.microsoft.com/en-us/help/4028685/windows-10-get-the-update).
 
+This section will help you to enable the WSL feature in Windows, and then to install and setup the Ubuntu App from the Microsoft store. 
+
 ## Install Instructions:
 
 **Please read through these step once before starting!**
