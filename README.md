@@ -1,5 +1,6 @@
 # Windows Subsystem for Linux Setup
 
+[](https://imgur.com/GOij8My)
 This is a guide for how to use the WSL feature that is included with Windows 10!
 
 WSL is a feature that allows Windows user to work with a truely native Linux based console that is directly integrated into Windows!
