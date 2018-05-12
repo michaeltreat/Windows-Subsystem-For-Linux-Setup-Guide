@@ -28,7 +28,7 @@ Once you are done, you can open up your Ubuntu App again and type `code` to open
 
 ## Node.js - Version 10.x
 
-JavaScript was initally run client-side in the browser, but the with addition of Node.js, it gained back-end capabilities. Node.js is a runtime environment built off of Chromes V8 JavaScript engine.
+JavaScript was initially  run client-side in the browser, but the with addition of Node.js, it gained back-end capabilities. Node.js is a runtime environment built off of Chromes V8 JavaScript engine.
 
 You will be using Node.js to add tools, libraries, and frameworks to your projects, and you will also use it as a REPL environment for working on your code.
 
@@ -73,7 +73,7 @@ But now there are two versions of Git install right? Correct. The nice thing abo
 
 NOTE: Git for Windows also comes with a terminal called Git Bash. This is what the majority of Windows users have used in the past as their solution to the POSIX / Unix-like terminal problem. We will be using the Ubuntu app instead.
 
-### Verifiying Git
+### Verifying Git
 
 Now that we have Git installed on both of the FSs, lets check which git Ubuntu is using. 
 
@@ -99,7 +99,7 @@ Now is a good point to quickly review everything we've done so far!
 
 1. We installed WSL and the Ubuntu app, and successfully set them up.
 1. We learned about the differences between the Ubuntu FS and the Windows FS, and how to work with them together.
-1. We updated our terminal's apperance, and we added an alias to help us navigate between our two file systems.
+1. We updated our terminal's appearance, and we added an alias to help us navigate between our two file systems.
 1. We installed VSCode, Node.js, and Git.
 
 At this point you are totally setup to start programming away! There are two final sections left to complete. They will cover:
