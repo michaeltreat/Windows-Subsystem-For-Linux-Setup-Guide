@@ -1,6 +1,6 @@
 # Updating your Terminal
 
-This section will talk about how to update your Terminal's look, and will also talk more
+This section will talk about how to update the Terminal's look and feel, as well as how to edit files in Ubuntu through it's command line editor nano.
 
 Typically you will always be working in the Windows FS, but for this task we need edit a file that lives on the Ubuntu FS. This means that we need to use nano to update the file, since Windows cannot update the Ubuntu file without causing errors.
 
@@ -106,6 +106,8 @@ And you're done!
 4. If you want to create your own custom commandline prompt you can check out [bashrcgenerator.com](bashrcgenerator.com) or [ezprompt.net](ezprompt.net) and use the code that provide instead of the code here. 
 
 
-### Next
+### Insatlling Software
 
-[next]()
+Before we can dive in and start coding, we should add in some sotware that will help us streamline the entire process. This next section will explain how to install 3 very common pieces of software, and will also cover the different situations you may encounter while using the 2 File Systems.
+
+[Click Here](05_VSCode_Node_GIt_install.md) to move to the next section!
