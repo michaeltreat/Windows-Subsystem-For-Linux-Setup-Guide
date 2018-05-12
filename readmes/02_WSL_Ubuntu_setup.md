@@ -6,9 +6,8 @@ This section will help you to enable the WSL feature in Windows, and then to ins
 
 ## Install Instructions:
 
-**Please read through these step once before starting!**
+### Please read through these step once before starting!
 
----
 ### 1. Enable WSL Feature in Windows.
 
 1. Right click on the start menu and click on s\Settings.
