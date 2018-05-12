@@ -19,6 +19,23 @@ If you remember back to when we setup our .profile on Ubuntu, the very last line
 
 In summary, you should install all programs on the Ubuntu FS, but keep all of you project files on the Windows FS.
 
+### NPM
+
+NPM stands for Node Package Manager. It is very much like Ubuntu's APT, but it is meant to help developers using JavaScript. 
+
+A typical use case of NPM would be to install a package that you need for a project. IE:
+
+`sudo npm install cowsay` would tell npm to install the cowsay package. You can then bring that package into your project by requiring it in.
+
+The other typical use case would be to install a package that would help you in you development process. IE:
+
+`sudo npm install -g eslint` would also tell npm to install the package, but instead of it being used just for this project, you are saying to install it globally. You really only ever want to install packages globally when they are NOT crucial to a projects functionality. In this case, eslint just gives us warnings, and the program will run just fine with out it.
+
+**NOTE**: With our WSL setup, the `-g` flag may not work as intended. This is beause Node is installed on the Ubuntu FS, and it will install the packages all the way up there, but your files on the Windows FS. 
+
+It is recommeded if you want to install something globally, that you install it at the root of your Windows user.
+
+
 ## Quality of Life.
 
 There are many tools that will help you as a developer that are not actually needed in order to run the programs you are working on. These can be considered Quality of Life enahncers; Tools and software that help you in your development process. 
@@ -35,6 +52,16 @@ Some of the more common ones inclde:
 1. Screen Shares
 
 None of those are crucial in the actual running of your applications, but they will help your process as you are developing the software.
+
+### VSCode Extensions.
+
+Extensions are small snippets of code or functionality that help extend the functionality of the VSCode editor in some way. We will see an example of using the ESlint extensions in the next section.
+
+1. To add extensions to VSCode, open up VSCode and press `ctrl + shift + x+`. 
+1. The windows that pops open may be a bit small, so hover over the edge and pull it to the right to expand it a bit. This will let you see the images and more info about extensions.
+1. Add in these extensions : `eslint, open in browser, Debugger for Chrome`
+
+We will be using eslint in the next section, but you can read the info about the other two in VSCode.
 
 ### Linters and ESlint
 
@@ -54,15 +81,56 @@ Lets get one setup!
 
 Let's install ESlint globally to our system.
 
-1. Type `sudo npm install -g eslint`.
-- `npm` is Node Package Manager. It is similar to apt, but it is meant for packages that will be used with Node.js, which we installed in the previous step.
-- The `-g` means to install this package globally, making it available to everything. You typically only want to install developer tools globally like this.
 
-2. Type `pwd`. You should be at the root level of your Windows User, or in a Development directory if you set one up for your user.
-3. Type `touch .eslintrc`. The touch command will create the ESlint file we talked about earlier which will define our rules. 
-4. Type` code .eslintrc`. This will tell VSCode to open this file.
-5. Copy the code below and paste it into the file:
+1. Type `cd~` to move to our root, then type `sudo npm install eslint`.
+- By moving to our root, we are effectively installing this package globally, allowing VSCode and other programs to use it.
+- If we use the `-g` flag here instead, it would be installed in the root of your Ubuntu user, and since VSCode is not be able to look up that high it would not be able to use this package.
+2. Type `touch .eslintrc`. The touch command will create the ESlint file we talked about earlier which will define our rules. 
+3. Type` code .eslintrc`. This will tell VSCode to open this file.
+4. Copy the code below and paste it into the file:
 
 ```
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	
+	"rules": {
+		"no-undefined":"error",
+		"strict":"error",
+		"space-infix-ops":"error",
+		"camelcase":"error",
+		"comma-dangle":"error",
+		"no-console":"warn",
+		"no-empty-function":"warn",
+		"no-mixed-spaces-and-tabs":"warn",
+		"no-redeclare":"error",
+		"no-unused-vars":"error",
+		"no-unused-expressions":"error",
+		"indent": [
+			"error",
+			2
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"semi": [
+			"error",
+			"always"
+		]
+	}
+}
 ```
+
+This is an eslintrc file, and it defines a bunch of basic rules that will help with development. 
+
+# ALL DONE!!
+
+Congrats! You're all done! Great job making it through this doc! One of the reasons this doc is a bit more lengthy than the rest is because we are using a Hybrid system with WSL. It is not as straight forward as just working in one OS and one FS, but the benefits here are great! 
+
+If you found this guide beneficial then please reach out to me and let me know! Even just a comment on this guide goes a long way! Thanks and good luck!
+
+**Don't for to run `sudo apt-get upgrade` when you have time!
 
