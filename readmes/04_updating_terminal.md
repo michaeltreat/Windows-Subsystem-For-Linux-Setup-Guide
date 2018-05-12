@@ -16,7 +16,7 @@ In order to change how your terminal looks, we need to add some code to a file t
 
 1. Open the Ubuntu app and type `ls -a`. You should see a .profile file there. If not, then type `sudo touch .profile`.
 2. Type `sudo nano .profile`. This will open the file in the command line editor nano.
-3. Copy this code then paste it into the nano editor. You can paste with right-click:
+3. Delete anything that's in the file, then copy and paste this code into the editor. You can paste with right-click:
 
 ```
 # get current branch in git repo
