@@ -15,7 +15,7 @@ IE: about_me[monday-lab x!+]$
 In order to change how your terminal looks, we need to add some code to a file that lives in your root Ubuntu user's root directory.
 
 1. Open the Ubuntu app and type `ls -a`. You should see a .profile file there. If not, then type `sudo touch .profile`.
-2. Type `sudo nano .profile`. This will open the file in the commandline editor nano.
+2. Type `sudo nano .profile`. This will open the file in the command line editor nano.
 3. Copy this code then paste it into the nano editor. You can paste with right-click:
 
 ```
@@ -103,7 +103,7 @@ And you're done!
 
 `C:\Users\<user>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs`
 
-4. If you want to create your own custom commandline prompt you can check out [bashrcgenerator.com](bashrcgenerator.com) or [ezprompt.net](ezprompt.net) and use the code that provide instead of the code here. 
+4. If you want to create your own custom command line prompt you can check out [bashrcgenerator.com](bashrcgenerator.com) or [ezprompt.net](ezprompt.net) and use the code that provide instead of the code here. 
 
 
 ### Installing Software
