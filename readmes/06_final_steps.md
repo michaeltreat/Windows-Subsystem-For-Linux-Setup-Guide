@@ -9,13 +9,13 @@ First, lets talk about Directory and File Structure Workflow.
 
 Up until this point we have mostly talked about installing programs and software, but we haven't talked much about the actual development workflow.
 
-Fortunatly, it is acutally rather simple. Unlike our practice with trying to exclusively install programs and software on Ubuntu, our files and folders need to live exclusivly on the Windows FS.
+Fortunately, it is actually rather simple. Unlike our practice with trying to exclusively install programs and software on Ubuntu, our files and folders need to live exclusively on the Windows FS.
 
 Remembering back to the rules about reading and writing, can you think of why we have to keep our working files on the Windows FS? It's because Windows and Windows Apps can only read and write Windows files, and VSCode will be making our changes. If you stored our files on Ubuntu, VSCode would be pretty much useless as it would not be able to save any changes.
 
 The other benefit here is that Ubuntu and all of the software you install on it CAN read and write Windows files, so it has no problems with it being on the Windows FS.
 
-If you remember back to when we setup our .profile on Ubuntu, the very last line said `cd~`. This was so we can always start directly in the Windows FS, at our user's root, or start directly into a Development folder that holds all of your work. This is because that is where you will be doing 99% of your work.
+If you remember back to when we setup our .profile on Ubuntu, the very last line said `cdwr`. This was so we can always start directly in the Windows FS, at our user's root, or start directly into a Development folder that holds all of your work. This is because that is where you will be doing 99% of your work.
 
 In summary, you should install all programs on the Ubuntu FS, but keep all of you project files on the Windows FS.
 
@@ -31,19 +31,19 @@ The other typical use case would be to install a package that would help you in 
 
 `sudo npm install -g eslint` would also tell npm to install the package, but instead of it being used just for this project, you are saying to install it globally. You really only ever want to install packages globally when they are NOT crucial to a projects functionality. In this case, eslint just gives us warnings, and the program will run just fine with out it.
 
-**NOTE**: With our WSL setup, the `-g` flag may not work as intended. This is beause Node is installed on the Ubuntu FS, and it will install the packages all the way up there, but your files on the Windows FS. 
+**NOTE**: With our WSL setup, the `-g` flag may not work as intended. This is because Node is installed on the Ubuntu FS, and it will install the packages all the way up there, but your files on the Windows FS. 
 
-It is recommeded if you want to install something globally, that you install it at the root of your Windows user.
+It is recommended that if you want to install something globally, that you install it at the root of your Windows user.
 
 
 ## Quality of Life.
 
-There are many tools that will help you as a developer that are not actually needed in order to run the programs you are working on. These can be considered Quality of Life enahncers; Tools and software that help you in your development process. 
+There are many tools that will help you as a developer that are not actually needed in order to run the programs you are working on. These can be considered Quality of Life enhancers; Tools and software that help you in your development process. 
 
-Some of the more common ones inclde: 
+Some of the more common ones include: 
 
 1. Linters
-1. Soure / Version Control
+1. Source / Version Control
 1. Auto / Tab completes
 1. Syntax highlighting
 1. Command Line Tools
@@ -55,23 +55,23 @@ None of those are crucial in the actual running of your applications, but they w
 
 ### VSCode Extensions.
 
-Extensions are small snippets of code or functionality that help extend the functionality of the VSCode editor in some way. We will see an example of using the ESlint extensions in the next section.
+Extensions are small snippets of code that extend the functionality of the VSCode editor in some way. We will see an example of using the ESlint extension in the next section.
 
 1. To add extensions to VSCode, open up VSCode and press `ctrl + shift + x+`. 
 1. The windows that pops open may be a bit small, so hover over the edge and pull it to the right to expand it a bit. This will let you see the images and more info about extensions.
 1. Add in these extensions : `eslint, open in browser, Debugger for Chrome`
 
-We will be using eslint in the next section, but you can read the info about the other two in VSCode.
+We will be using ESlint in the next section, but you can read the info about the other two in VSCode.
 
 ### Linters and ESlint
 
 One of the most important tools you will need is a linter. This section will help you get that set up. 
 
-But what is a Linter? A linter is a program or tool that will scour your code looking for common errors and alert you to them right away. This helps you imensely since you do not have to wait for your programs to run first before finding the bugs.
+But what is a Linter? A linter is a program or tool that will scour your code looking for common errors and alert you to them right away. This helps you immensely since you do not have to wait for your programs to run first before finding the bugs.
 
 Another common term is a linter file. A linter file defines the rules you want the linter to look out for. For example, you can tell the linter program to always alert you if your indentation is off, warn you if you forgot to use semicolons, and ignore errors involving trailing commas, etc.
 
-Linters are also extremely useful when you a learning to code, as it helps you adhear to a stricter, more conventional style. Without one it can be easier to ignore your indentations, which will not only look sloppy, but it will make the development process harder to follow and learn.
+Linters are also extremely useful when you a learning to code, as it helps you adhere to a stricter, more conventional style. Without one it can be easier to ignore your indentations, which will not only look sloppy, but it will make the development process harder to follow and learn.
 
 Lets get one setup!
 
@@ -82,7 +82,7 @@ Lets get one setup!
 Let's install ESlint globally to our system.
 
 
-1. Type `cd~` to move to our root, then type `sudo npm install eslint`.
+1. Type `cdwr` to move to the Windows root, then type `sudo npm install eslint`.
 - By moving to our root, we are effectively installing this package globally, allowing VSCode and other programs to use it.
 - If we use the `-g` flag here instead, it would be installed in the root of your Ubuntu user, and since VSCode is not be able to look up that high it would not be able to use this package.
 2. Type `touch .eslintrc`. The touch command will create the ESlint file we talked about earlier which will define our rules. 
