@@ -2,6 +2,8 @@
 
 At this point, you and your system are totally ready to start developing, so lets get some helpful developer tools and software downloaded and installed.
 
+This section will also talk about why to install something on Ubuntu vs Windows vs Both.
+
 After finishing this doc you will have VSCode, Node.js, and Git installed on your machine.
 
 ## VSCode
@@ -19,7 +21,7 @@ Once you are done, you can open up your Ubuntu App again and type `code` to open
 
 ### Notes on VSCode
 
-1. Remember the Windows and Windows programs cannot edit Ubuntu files. If you try, you may get a permission denied error or end up with a broken file. If you need to edit Ubuntu files, use Ubuntu's built in editor nano, or another Ubuntu command line editor.
+1. Remember that Windows and Windows programs cannot edit Ubuntu files. If you try, you may get a permission denied error or end up with a broken file. If you need to edit Ubuntu files, use Ubuntu's built in editor nano, or another Ubuntu command line editor.
 1. When you open VSCode, you will likely see an error about it not being able to find Git. We will address that later on in this doc. 
 1. VSCode comes with an integrated terminal. By default, it will use the Windows PowerShell program. Check out [this doc]() for more information on how to use WSL and Ubuntu inside of Windows PowerShell.
 
@@ -30,7 +32,7 @@ JavaScript was initally run client-side in the browser, but the with addition of
 
 You will be using Node.js to add tools, libraries, and frameworks to your projects, and you will also use it as a REPL environment for working on your code.
 
-We will be installing through the Ubuntu Command Line Interface, using Ubuntu's APT ( Advanced Packaging System). We are installing it on the Ubuntu FS because it is software that does not need a GUI and we want it to run in a POSIX environment. Having said that, it is likely you will never have a problem running Node if you install it through Windows as well, but it is recommended that you try to stick to this pattern of as much of your software onto Ubuntu as possible, and only installing it through Windows when necessary, as this may save you from potential POSIX problems in the future.
+We will be installing through the Ubuntu Command Line Interface, using Ubuntu's apt ( Advanced Packaging System). We are installing it on the Ubuntu FS because it is software that does not need a GUI and we want it to run in a POSIX environment. Having said that, it is likely you will never have a problem running Node if you install it through Windows as well, but it is recommended that you try to stick to this pattern of as much of your software onto Ubuntu as possible, and only installing it through Windows when necessary, as this may save you from potential POSIX problems in the future.
 
 1. Open the Ubuntu app and type `cd ~` to bring you into the Ubuntu FS.
 1. Type `sudo apt-get update`. This will tell Ubuntu's apt tool to update.
