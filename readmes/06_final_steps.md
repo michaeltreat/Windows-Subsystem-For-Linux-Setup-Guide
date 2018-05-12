@@ -132,4 +132,4 @@ Congrats! You're all done! Great job making it through this doc! One of the reas
 
 If you found this guide beneficial then please reach out to me and let me know! Even just a comment on this guide goes a long way! Thanks and good luck!
 
-**Don't for to run `sudo apt-get upgrade` when you have time!**
+**Don't forget to run `sudo apt-get upgrade` when you have time!**
