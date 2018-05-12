@@ -40,10 +40,10 @@ Ubuntu is shipped with some default software that has likely had more recent upd
 
 ### Learning your File Systems
 
-At this point you are now totally ready to start developing on your machine using the Ubuntu app as your POSIX env! It is recommended that you use the Ubuntu FS for installing and running software and the Windows FS for everything else.
+At this point you are now totally setup with WSL and the Ubuntu app. The rest of this guide will spend time talking about best practices, workflow, and other important info!
 
 **Important!!**
 
-It is also highly recommended you at least read through the next section as it talks about the very important differences between the Windows FS and the Ubuntu FS! 
+It is also highly recommended you read through at least the next section as it talks about the very important differences between the Windows FS and the Ubuntu FS! 
 
 [Click Here](./03_understanding_the_file_systems.md) to learn more about the two File Systems.
