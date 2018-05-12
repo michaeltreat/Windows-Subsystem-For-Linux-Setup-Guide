@@ -2,8 +2,6 @@
 
 Before we dive into how to use the Ubuntu App and WSL, lets talk about one of the most important things: Knowing your File Systems.
 
----
-
 There are 2 files systems here:
 
 1. The Windows FS
