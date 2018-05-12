@@ -105,5 +105,5 @@ At this point you are totally setup to start programming away! There are two fin
 1. Workflow regarding directories and files.
 1. Quality of life things like linters, plugins, and CLI tools.
 
-Check out the [Final Steps]() to finish up!
+Check out the [Final Steps](06_final_steps.md) to finish up!
 
