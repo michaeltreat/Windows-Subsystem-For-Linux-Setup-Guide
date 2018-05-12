@@ -28,16 +28,15 @@ Essentially, we use the Subsystem for two things:
 The vast majority of issues with Web Development on Windows stems from not being able to run software in POSIX environments, and the inability to issue POSIX or Unix-like commands. Since the Subsystem is directly mounted to you Windows File system, it has access to your files. That means anything you install in the Subsystem can use those files, and run them through the software in it's POSIX environment successfully! You can also use the `WSL` command in the Windows Shell to turn it the Subsystem's command line, enabling you to issue commands directly. 
  
 The typical workflow looks like this: 
-1. Open Windows PowerShell and type `wsl`. 
-- This enters you into the POSIX shell at your current user's root level. 
-2. Work normally, doing everything in the Windows FS, under `WSL`.  
-3. When you need a new software, navigate to the Subsystem's FS and install the program through the command line. 
-4. Navigate back to the Windows FS and use the software as needed. 
+1. Open whichever Linux distro you are using. ( It's just like opening a terminal window). 
+1. Work normally, doing everything in the Windows FS.  
+1. When you need new software, navigate to the Subsystem's FS and install the program through the command line. 
+1. Navigate back to the Windows FS and use the software as needed. 
 - Since the software is connected through the PATH, it runs just fine. 
 
 ## Summary
 
-In Summary, WSL fixes many of the issues Windows users run into during web development by giving them access to a POSIX environment in which to run their programs an to issues their commands. Unlike other options, WSL is not a wrapper or an emulator, it is truly a Linux distro running on your Windows FS. This overcomes the issues that other wrappers have, and cuts down on the setup needed to get emulators or VMS setup and running.
+In Summary, WSL fixes many of the issues Windows users run into during web development by giving them access to a POSIX environment in which to run their programs an to issues their commands. Unlike other options, WSL is not a wrapper or an emulator, it is a native Linux distro running on the Windows FS. This overcomes the issues that other wrappers have, and cuts down on the setup needed to get emulators or VMs setup and running.
 
 The work flow is also extremely simple as you are just working in a terminal like usual, except you will be installing your programs on the Subsystem's FS instead of the Windows FS.
 
