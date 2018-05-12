@@ -106,7 +106,7 @@ And you're done!
 4. If you want to create your own custom commandline prompt you can check out [bashrcgenerator.com](bashrcgenerator.com) or [ezprompt.net](ezprompt.net) and use the code that provide instead of the code here. 
 
 
-### Insatlling Software
+### Installing Software
 
 Before we can dive in and start coding, we should add in some sotware that will help us streamline the entire process. This next section will explain how to install 3 very common pieces of software, and will also cover the different situations you may encounter while using the 2 File Systems.
 
