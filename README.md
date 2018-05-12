@@ -21,4 +21,4 @@ By the end of this guide, you will know:
 # Start Here : [Intro](./readmes/01_preface.md) 
 
 
-And please make sure to star or fork this repo! Please share it!
+And please make sure to star or fork this repo! :bowtie: Thanks
