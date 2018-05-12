@@ -15,7 +15,10 @@ By the end of this guide, you will know:
 1. How to install WSL and the free Ubuntu App.
 1. How the two File systems work together, and how you should work with them.
 1. How to update your Terminal, and edit WSL files.
-1. Where, Why, and How to install different softwares.
+1. Where, Why, and How to install different programs and software.
 1. Additional important information.
 
 # Start Here : [Intro](./readmes/01_preface.md) 
+
+
+And please make sure to star or fork this repo! Please share it!
