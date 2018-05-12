@@ -18,4 +18,6 @@ By the end of this guide, you will know:
 1. Where, Why, and How to install different softwares.
 1. Additional important information.
 
-- [Start here!](./readmes/01_preface.md) 
+# BEGIN:
+
+[Intro](./readmes/01_preface.md) 
