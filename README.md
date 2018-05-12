@@ -4,9 +4,9 @@ This is a guide for how to use the WSL feature that is included with Windows 10!
 
 ![Microsoft and Linux](https://i.imgur.com/GOij8My.png)
 
-WSL is a feature that allows Windows user to work with a truely native Linux based console that is directly integrated into Windows!
+WSL is a feature that allows Windows users to work with a native Linux distro that is directly integrated into Windows!
 
-This is not a Virtual Machine, or an Emulator, or a Wrapper, it is literally Linux inside of Windows, directly mounted to the Windows File System.
+This is not a Virtual Machine, emulator, or a console wrapper, it is literally Linux inside of Windows, directly mounted to the Windows File System.
 
 
 ### What this guide Covers
@@ -21,6 +21,5 @@ By the end of this guide, you will know:
 1. Additional important information.
 
 # Start Here : [Intro](./readmes/01_preface.md) 
-
 
 And please make sure to star or fork this repo! :bowtie: Thanks
