@@ -88,8 +88,8 @@ Now that we have Git installed on both of the FSs, lets check which git Ubuntu i
 
 The final step here is to add your email and name to the Git config. This will allow you to commit and push things to git hub. Make sure to include the space after .email and .name.
 
-1. Type `git config --global user.email 'your email here in single quotes'
-1. Type `git config --global user.name 'Your Name In Single Quotes'
+1. Type `git config --global user.email 'your email here in single quotes'`.
+1. Type `git config --global user.name 'Your Name In Single Quotes'`.
 
 Once you are done, type `git config -l` to see verify that it has your name and email saved correctly.
 
