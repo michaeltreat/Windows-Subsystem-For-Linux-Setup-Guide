@@ -31,10 +31,7 @@ The other typical use case would be to install a package that would help you in 
 
 `sudo npm install -g eslint` would also tell npm to install the package, but instead of it being used just for this project, you are saying to install it globally. You really only ever want to install packages globally when they are NOT crucial to a projects functionality. In this case, eslint just gives us warnings, and the program will run just fine with out it.
 
-**NOTE**: With our WSL setup, the `-g` flag may not work as intended. This is because Node is installed on the Ubuntu FS, and it will install the packages all the way up there, but your files on the Windows FS. 
-
-It is recommended that if you want to install something globally, that you install it at the root of your Windows user.
-
+**NOTE**: If a program from the Windows FS needs to use something from npm ( like VSCode needs ESlint) then you should install it globally and also on your Windows Root.
 
 ## Quality of Life.
 
