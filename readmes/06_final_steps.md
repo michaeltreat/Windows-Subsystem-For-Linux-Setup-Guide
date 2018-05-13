@@ -91,36 +91,42 @@ Let's install ESlint globally to our system.
 
 ```
 {
-	"env": {
-		"browser": true,
-		"es6": true
-	},
-	
-	"rules": {
-		"no-undefined":"error",
-		"strict":"error",
-		"space-infix-ops":"error",
-		"camelcase":"error",
-		"comma-dangle":"error",
-		"no-console":"warn",
-		"no-empty-function":"warn",
-		"no-mixed-spaces-and-tabs":"warn",
-		"no-redeclare":"error",
-		"no-unused-vars":"error",
-		"no-unused-expressions":"error",
-		"indent": [
-			"error",
-			2
-		],
-		"quotes": [
-			"error",
-			"single"
-		],
-		"semi": [
-			"error",
-			"always"
-		]
-	}
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "space-infix-ops":"error",
+    "use-isnan":"warn",
+    "valid-typeof":"error",
+    "default-case":"warn",
+    "camelcase":"error",
+    "new-cap":"error",
+    "no-console":"warn",
+    "no-empty-function":"warn",
+    "no-redeclare":"error",
+    "no-unused-vars":"error",
+    "no-unused-expressions":"error",
+    "no-trailing-spaces":"warn",
+    "no-undefined":"error",
+    "no-undef":"error",		
+    "no-mixed-spaces-and-tabs":["warn","smart-tabs"],
+    "strict":["error", "global"],
+    "eqeqeq":["error","always"],
+    "indent": ["error", 2],
+    "quotes": ["error",	"single"],
+    "semi": ["error",	"always"],
+    "comma-dangle": [
+      "error", 
+      {
+        "arrays": "never",
+	"objects": "always",
+	"imports": "never",
+	"exports": "never",
+	"functions": "ignore"
+      }
+    ]
+  }
 }
 ```
 
