@@ -110,6 +110,7 @@ If you want to use a relative path, but don't want to go all the way up to the U
 This also works with tab completion as well, which is awesome.
 
 - **cdwr :**
+
 Now when you type `cdwr` it will bring you to the root of your Windows User! This makes navigating between the two file systems super easy. 
 
 - To navigate to the Ubuntu root, you will type the normal `cd ~`.
