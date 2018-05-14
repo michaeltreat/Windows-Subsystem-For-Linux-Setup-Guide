@@ -2,7 +2,7 @@
 
 At this point, you and your system are totally ready to start developing, so lets get some helpful developer tools and software downloaded and installed.
 
-This section will also talk about why to install something on Ubuntu vs Windows vs Both.
+This section will also talk about why to install something on Windows vs Ubuntu vs Both.
 
 After finishing this doc you will have VSCode, Node.js, and Git installed on your machine.
 
