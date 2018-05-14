@@ -27,9 +27,9 @@ You are actually in the Windows File System now as well! If you were to create a
 
 ### Ubuntu Files
 
-- Now that you are in your Ubuntu User's root, type `ls -a` to show all hidden files as well. Notice that you have a `.profile` file? This is where you terminal's profile settings are stored. This is also an Ubuntu file because it is on the Ubuntu FS. You can't edit this file through Windows, or a Windows program or app, as it wouldn't work. You might see the changes show up in the file, but it will note be read correctly anymore.
+- Now that you are in your Ubuntu User's root, type `ls -a` to show all hidden files as well. Notice that you have a `.profile` file? This is where your terminal's profile settings are stored. This is also an Ubuntu file because it is on the Ubuntu FS. You can't edit this file through Windows, or a Windows program or app, as it wouldn't work. You might see the changes show up in the file, but it will not be read correctly anymore.
 
-In the rare cases where you do need to edit an Ubuntu file, then you should use the built in code editor called nano, or use the CLI to install a different one. Just remember that you cannot use a GUI here, so you must edit Ubuntu files through the command line.
+In the off cases where you do need to edit an Ubuntu file, then you should use the built in code editor called nano, or use the CLI to install a different one. Just remember that you cannot use a GUI here, so you must edit Ubuntu files through the command line.
 
 ## Updating your Terminal
 
