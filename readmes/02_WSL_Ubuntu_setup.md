@@ -32,7 +32,7 @@ This will install the needed files. Follow any directions that pop up and restar
 
 **NOTE**: This can take some time, about 10-30 minutes. It is recommended you do it now if you have the time, but you can also wait until the end of this doc to do this as well. There will be a reminder at the end.
 
-Ubuntu is shipped with some default software that has likely had more recent updates come out. Ubuntu uses apt ( Advanced Packaging  Tool) to maintain all of it's packages. Think of it like Windows update, the App Store, and a Public library all in one. We need to use apt to update ( update all it's packages) and then tell it to upgrade them ( actually update the current versions)
+Ubuntu is shipped with some default software that has likely had more recent updates come out. Ubuntu uses apt ( Advanced Packaging  Tool) to maintain all of it's packages. Think of it like Windows update, the App Store, and a Public library all in one. We need to use apt to update all it's packages and then tell it to upgrade them ( actually update the current versions).
 
 1. Type `sudo apt-get update`.
 1. Once that is complete, type `sudo apt-get upgrade`. Press `y` when prompted. 
