@@ -19,7 +19,7 @@ This `/home/` means that you are in the Ubuntu FS.
 
 ### Windows Files
 
-- Type `cd <hard_drive_letter>`, then `ls`. This will now show you the top level of your hard drive. You may likely see some errors like `Cannot Read Symbolic Link` and ` Permission denied` You can ignore these errors. Symbolic links are just shortcuts to files which Ubuntu cannot interpret, and keeping permissions as they are is also highly recommended. You will likely never have a situation where you need to handle permissions between Windows and Ubuntu, as you will never need to edit or install any system files with Ubuntu, and vice versa.
+- Type `cd <hard_drive_letter>`, then `ls`. This will now show you the top level of your hard drive. You may likely see some errors like `Cannot Read Symbolic Link` and ` Permission denied`. You can ignore these errors. Symbolic links are just shortcuts to files which Ubuntu cannot interpret, and keeping permissions as they are is also highly recommended. You will likely never have a situation where you need to handle permissions between Windows and Ubuntu, as you will never need to edit or install any system files with Ubuntu, and vice versa.
 
 You are actually in the Windows File System now as well! If you were to create a file here, you would be adding it to the Windows File System, and it would be a Windows file. This is important because one of the rules here is that while Ubuntu can read and write both Ubuntu and Windows files, Windows can only read and write Windows files, and read Ubuntu Files, but it cannot write Ubuntu files. Knowing which files belong to which FS is important because of this. 
 
