@@ -66,18 +66,18 @@ This is why it is recommended that as much of your software is installed on Ubun
 
 But now there are two versions of Git install right? Correct. The nice thing about WSL though is that the way the PATH is setup, it knows which one to use and when. More on that after we install Git on Windows.
 
-1. Visit [git-scm.com](https://git-scm.com/), download, and install Git.
+1. Visit [git-scm.com](https://git-scm.com/) to download and install Git.
 2. Follow the onscreen instructions. 
 - Choose the default values for each prompt
-- **EXCEPT** for when it asks you to `Choose the default editor used by Git`. Click the drop down and choose VSCode option. 
-- This will allow you to handle merge conflicts in your editor instead of in your command line.
+- **EXCEPT** for when it asks you to `Choose the default editor used by Git`, click the drop down and choose VSCode option. 
+- This will allow you to handle merge conflicts in your editor instead of in your command line which is another reason to have Git on Windows as well.
 3. Continue choosing just the default options to finish the installation.
 
-NOTE: Git for Windows also comes with a terminal called Git Bash. This is what the majority of Windows users have used in the past as their solution to the POSIX / Unix-like terminal problem. We will be using the Ubuntu app instead.
+NOTE: Git for Windows also comes with a terminal called Git Bash. This is what a lot of Windows users have used in the past as their solution to the POSIX / Unix-like terminal problem. We will be using the Ubuntu app instead.
 
 ### Verifying Git
 
-Now that we have Git installed on both of the FSs, lets check which git Ubuntu is using. 
+Now that we have Git installed on both of the file systems, lets check which git Ubuntu is using. 
 
 1. Open a new terminal (the Ubuntu App) and type `whereis git`. This will show you all the places git is on your computer.
 1. Now type `which git`. This will show you which git is executed when you type `git`. Notice that it only shows the one in Ubuntu? That is the git that will be used when you are in your terminals.
@@ -93,7 +93,7 @@ The final step here is to add your email and name to the Git config. This will a
 1. Type `git config --global user.email 'your email here in single quotes'`.
 1. Type `git config --global user.name 'Your Name In Single Quotes'`.
 
-Once you are done, type `git config -l` to see verify that it has your name and email saved correctly.
+Once you are done, type `git config -l` and verify that it has your name and email saved correctly.
 
 ## Wrapping up
 
