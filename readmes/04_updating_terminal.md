@@ -116,7 +116,7 @@ Now when you type `cdwr` it will bring you to the root of your Windows User! Thi
 - To navigate to the Ubuntu root, you will type the normal `cd ~`.
 - To navigate to the Windows Root, you will type `cdwr` with NO space!.
 
-2. If you decide to add a directory to your Windows User's root to hold all of your work, IE: `/Users/MichaelLeonTreat/Development`, you can come back to this file and update the line with the `cd~` alias so that it moves directly into that directory. Just add the name of the directory to the end of the path after your username.
+2. If you decide to add a directory to your Windows User's root to hold all of your work, IE: `/Users/MichaelLeonTreat/Development`, you can come back to this file and update the `export wr` line so that it moves directly into that directory. Just add the name of the directory to the end of the path after your username.
 
 3. In case you ever need it, the Ubuntu FS lives on your Windows FS on the path that looks very similar to this:
 
