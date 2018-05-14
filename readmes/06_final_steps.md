@@ -17,7 +17,7 @@ The other benefit here is that Ubuntu and all of the software you install on it 
 
 If you remember back to when we setup our .profile on Ubuntu, the very last line said `cdwr`. This was so we can always start directly in the Windows FS, at our user's root, or start directly into a Development folder that holds all of your work. This is because that is where you will be doing 99% of your work.
 
-In summary, you should install all programs on the Ubuntu FS, but keep all of you project files on the Windows FS.
+In summary, you should install all programs on the Ubuntu FS, but keep all of your project files on the Windows FS.
 
 ### NPM
 
