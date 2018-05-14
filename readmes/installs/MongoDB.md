@@ -11,7 +11,7 @@ Most of the steps are listed out [here](https://docs.mongodb.com/manual/tutorial
 
 - `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5`
   - This will "... import the MongoDB public GPG Key" so we can use the official MongoDB supported pkg in apt.
-3. Next, paste this into the terminal:
+3. Next, paste this one line into the terminal:
 
 - `echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list`
   - This will add the deb to your sources list.
