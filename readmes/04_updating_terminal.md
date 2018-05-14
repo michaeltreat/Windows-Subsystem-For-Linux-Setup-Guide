@@ -4,7 +4,7 @@ This section will talk about how to update the Terminal's look and feel, as well
 
 Typically you will always be working in the Windows FS, but for this task we need edit a file that lives on the Ubuntu FS. This means that we need to use nano to update the file, since Windows cannot update the Ubuntu file without causing errors.
 
-At the end, this will add some coloring to your command line, and you command line will be formatted like this:
+At the end, this will add some coloring to your command line, and your command line will be formatted like this:
 
 `WorkingDirectory[GitBranch GitStatus]$`
 
@@ -12,10 +12,10 @@ IE: about_me[monday-lab x!+]$
 
 ### Updating the .profile file
 
-In order to change how your terminal looks, we need to add some code to a file that lives in your root Ubuntu user's root directory.
+In order to change how your terminal looks, we need to add some code to a file that lives in your Ubuntu user's root directory.
 
 1. Open the Ubuntu app and type `ls -a`. You should see a .profile file there. If not, then type `sudo touch .profile`.
-2. Type `sudo nano .profile`. This will open the file in the command line editor nano.
+2. Type `sudo nano .profile`. This will open the file in the command line editor Nano.
 3. Delete anything that's in the file, then copy and paste this code into the editor. You can paste with right-click:
 
 ```
