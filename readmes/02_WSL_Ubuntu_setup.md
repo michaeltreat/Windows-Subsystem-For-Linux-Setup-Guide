@@ -10,7 +10,7 @@ This section will help you to enable the WSL feature in Windows, and then to ins
 
 ### 1. Enable WSL Feature in Windows.
 
-1. Right click on the start menu and click on s\Settings.
+1. Right click on the start menu and click on Settings.
 2. In the Search box, type `Turn Windows Features On Or Off` and click on the item that populates in the list.
 3. A window will popup with a list of folders with checkboxes next to them. Scroll down and check the box for `Windows Subsystem for Linux`.
 
