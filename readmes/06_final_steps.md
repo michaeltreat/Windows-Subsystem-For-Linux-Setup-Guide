@@ -31,7 +31,9 @@ The other typical use case would be to install a package that would help you in 
 
 `sudo npm install -g eslint` would also tell npm to install the package, but instead of it being used just for this project, you are saying to install it globally. You really only ever want to install packages globally when they are NOT crucial to a projects functionality. In this case, eslint just gives us warnings, and the program will run just fine with out it.
 
-**NOTE**: If a program from the Windows FS needs to use something from npm ( like VSCode needs ESlint) then you should install it globally and also on your Windows Root.
+**NOTE**: If a program from the Windows FS needs to use something from npm ( like VSCode needs ESlint) then you should install it globally and also on your Windows Root. 
+
+This is becasue npm usually looks up the file system tree up to the root to find installed packages, but globally installed packages are in the Ubuntu FS, the Ubuntu FS is not actually a parent node on that tree. If your project or a Windows program needs a package, you should typically either install that package on the Windows root, or that project's root. If you just need to run the package ( like jest or nodemon) you can just install it globally and the terminal will know where to find it.
 
 ## Quality of Life.
 
@@ -55,10 +57,10 @@ None of those are crucial in the actual running of your applications, but they w
 Extensions are small snippets of code that extend the functionality of the VSCode editor in some way. We will see an example of using the ESlint extension in the next section.
 
 1. To add extensions to VSCode, open up VSCode and press `ctrl + shift + x+`. 
-1. The windows that pops open may be a bit small, so hover over the edge and pull it to the right to expand it a bit. This will let you see the images and more info about extensions.
-1. Add in these extensions : `eslint, open in browser, Debugger for Chrome`
+1. The window that pops open may be a bit small, so hover over the edge and pull it to the right to expand it a bit. This will let you see the images and more info about extensions.
+1. Some basic recommended extensions : `eslint, open in browser, Debugger for Chrome, html5 snippets`
 
-We will be using ESlint in the next section, but you can read the info about the other two in VSCode.
+We will be using ESlint in the next section so make sure you grab that one, but you can read info about the other ones in VSCode.
 
 ### Linters and ESlint
 
