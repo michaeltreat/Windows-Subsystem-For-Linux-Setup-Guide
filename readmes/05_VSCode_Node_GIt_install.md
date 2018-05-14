@@ -12,12 +12,14 @@ VSCode is a code editor that comes with many features that help you in your deve
 
 VSCode is where you will doing the vast majority of your work. Since VSCode relies on a GUI, this will be installed on through Windows, not Ubuntu.
 
-1. Vist [VSCode] to download the VSCode Setup.
-1. Launch the editor and follow the onscreen prompts.
-1. When you reach the section for `Additional tasks`, make sure every box is checked ( not important, just helpful)
+1. Vist [VSCode](https://code.visualstudio.com/?wt.mc_id=adw-brand&gclid=Cj0KCQjw5-TXBRCHARIsANLixNw00R2vbdqnzLml-GvzCgbyqmgcAb9kyRQsC5LAPVS6tuBDZ9ws9pgaAsiLEALw_wcB) to download VSCode.
+1. Launch the installer and follow the onscreen prompts.
+1. When you reach the section for `Additional tasks`, make sure every box is checked.
 1. Click install and continue to follow and onscreen prompts.
 
-Once you are done, you can open up your Ubuntu App again and type `code` to open VSCode. ( This may require a restart first)
+Once you are done, you can open up a terminal (the Ubuntu App) and type `code` to open VSCode. (This may require a restart first)
+
+Notice how Ubuntu knows about a program that is installed on the Windows FS? This is because WSL is able to connect both PATHs together!
 
 ### Notes on VSCode
 
