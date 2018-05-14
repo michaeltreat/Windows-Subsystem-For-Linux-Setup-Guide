@@ -1,4 +1,4 @@
-# Installing Git and Node.js
+# Installing VSCode, Node.js, and Git
 
 At this point, you and your system are totally ready to start developing, so lets get some helpful developer tools and software downloaded and installed.
 
