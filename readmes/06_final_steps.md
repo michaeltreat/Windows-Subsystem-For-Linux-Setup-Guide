@@ -56,9 +56,9 @@ None of those are crucial in the actual running of your applications, but they w
 
 Extensions are small snippets of code that extend the functionality of the VSCode editor in some way. We will see an example of using the ESlint extension in the next section.
 
-1. To add extensions to VSCode, open up VSCode and press `ctrl + shift + x+`. 
+1. To add extensions to VSCode, open up VSCode and press `Ctrl + Shift + X`. 
 1. The window that pops open may be a bit small, so hover over the edge and pull it to the right to expand it a bit. This will let you see the images and more info about extensions.
-1. Some basic recommended extensions : `eslint, open in browser, Debugger for Chrome, html5 snippets`
+1. Some basic recommended extensions : `eslint, open in browser, Debugger for Chrome, html snippets`
 
 We will be using ESlint in the next section so make sure you grab that one, but you can read info about the other ones in VSCode.
 
@@ -82,8 +82,8 @@ Let's install ESlint globally to our system.
 
 
 1. Type `cdwr` to move to the Windows root, then type `sudo npm install eslint`.
-- By moving to our root, we are effectively installing this package globally, allowing VSCode and other programs to use it.
-- If we use the `-g` flag here instead, it would be installed in the root of your Ubuntu user, and since VSCode is not be able to look up that high it would not be able to use this package.
+- By moving to our root, we are effectively installing this package globally on the Window's fs, allowing VSCode and other programs to use it.
+- If we use the `-g` flag here instead, it would be installed in the root of your Ubuntu user, and since VSCode is not be able to look up that way it would not be able to use this package.
 2. Type `touch .eslintrc`. The touch command will create the ESlint file we talked about earlier which will define our rules. 
 3. Type` code .eslintrc`. This will tell VSCode to open this file.
 4. Copy the code below and paste it into the file:
