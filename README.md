@@ -31,4 +31,6 @@ Please make sure to star or fork this repo! :bowtie: Thanks!
 - Video demos, screen shots, and gifs to help visualize what's going on.
 - Guides for other Windows Store Distros.
 
-Thanks to [Izzy Baer](https://github.com/izzybaer) for editing this guide!
+
+## Credits
+Huge thanks to [Izzy Baer](https://github.com/izzybaer) for editing this guide!
