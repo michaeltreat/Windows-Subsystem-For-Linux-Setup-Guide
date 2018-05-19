@@ -1,33 +1,26 @@
-# Install MongoDB with WSL for Windows.
+# Install MongoDB with WSL for Windows
 
-This doc will guide you through installing Mongo DB using WSL through the Command Line. 
+This doc will guide you through installing MongoDB using WSL through the Command Line. 
 
-Most of the steps are listed out [here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/), but this guide will trim them down and make it a bit more straight forward for our needs.
+Most of the steps are listed [here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/), but this guide will trim them down and make it a bit more straight forward for our needs.
 
-## Install MongoDB Community Edition.
+## Install MongoDB - Community Edition
 
-1. Open a terminal ( the Ubuntu app) and type `cd ~` to go to the root of the Ubuntu File System.
-2. Copy and paste this into the terminal:
-
-- `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5`
-  - This will "... import the MongoDB public GPG Key" so we can use the official MongoDB supported pkg in apt.
-3. Next, paste this one line into the terminal:
-
-- `echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list`
-  - This will add the deb to your sources list.
-  - Note that you must be on Ubuntu Xenial. When Zesty gets LTS we will update this doc.
+1. Open a terminal (the Ubuntu app) and type `cd ~` to go to the root of the Ubuntu File System.
+2. Copy and paste this into the terminal `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5`. This will _import the MongoDB public GPG Key_ so we can use the official MongoDB supported pkg in apt.
+3. Next, paste this one line into the terminal `echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list`. This will add the deb to your sources list. Note that you must be on Ubuntu Xenial. When Zesty gets LTS we will update this doc.
 4. Reload your local pkg database by typing `sudo apt-get update`.
-5. Run the install command by pasting this into the terminal: `sudo apt-get install -y mongodb-org`.
-  - This will install the most stable version of mongod, 3.6 at time of writing. If you want to install a different version please refer to the link above.
+5. Run the install command by pasting this into the terminal `sudo apt-get install -y mongodb-org`. This will install the most stable version of mongod, 3.6 at time of writing. If you want to install a different version please refer to the link above.
 
-## Add the data/db/ directories. NOTE: This step is not included in the link above.
+## Add the data/db directories
+- **NOTE** this step is not included in the link above.
 
 1. Make sure you are still on the root of the Ubuntu FS by typing `cd ~`. If you type pwd it should output `/home/<user>/`
 2. Type `sudo mkdir -p data/db`
   - This will make a data directory with a db sub directory.
   - The `-p` flag means make the parent directory if it doesn't exist.
   
-## Run mongod server and mongo shell.
+## Run mongod server and mongo shell
 
 1. Open a new terminal and type `sudo mongod --dbpath ~/data/db`.
   - You should see a bunch of stuff pop up, but the last line should be something like `waiting for connections on port 27017`.
@@ -42,6 +35,6 @@ Most of the steps are listed out [here](https://docs.mongodb.com/manual/tutorial
 4. To exit the shell, press `ctrl + c`. You should get a neat message, then you'll be returned to your command line!
 
 
-## Troubleshooting.
+## Troubleshooting
 
 Here is a link to the [Install Docs](https://docs.mongodb.com/manual/installation/) for MongoDB. Also feel free to message or email me directly.
