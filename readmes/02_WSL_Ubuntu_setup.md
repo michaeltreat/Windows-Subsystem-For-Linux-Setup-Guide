@@ -43,7 +43,7 @@ Ubuntu is shipped with some default software that has likely had more recent upd
 
 At this point you are now totally setup with WSL and the Ubuntu app. The rest of this guide will spend time talking about best practices, workflow, and other important info!
 
-#**IMPORTANT**
+**IMPORTANT**
 
 It is highly recommended you read through the next section, _at least_, as it talks about the very important differences between the Windows FS and the Ubuntu FS.
 
