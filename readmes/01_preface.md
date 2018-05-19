@@ -18,7 +18,7 @@ _**However**_, there are a few caveats:
  
 ## Workflow 
  
-You'd think 2. would be a **huge** problem, right?!
+You'd think #2 would be a **huge** problem, right?!
 
 It's actually not. It's all in the _workflow_!
  
