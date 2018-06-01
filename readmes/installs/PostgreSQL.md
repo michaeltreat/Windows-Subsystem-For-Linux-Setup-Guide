@@ -25,7 +25,7 @@ postgresql-10 runs under the user `postgres`. We need to give this user a passwo
 
 1. To set the password for postgres, type `sudo passwd postgres`.
 2. You will get a prompt to enter in your password. It will not show when you are typing, but it is still registering your key-strokes.
-3. Close the window and reopen and PowerShell WSL. 
+3. Close and repoen the terminal. 
 
 ## Using psql
 
