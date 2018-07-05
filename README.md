@@ -28,10 +28,9 @@ Please make sure to star or fork this repo! :bowtie: Thanks!
 ### Upcoming additions
 
 - Getting new laptop on 7/1/18 and will update the doc in that month. ( Update coming soon! Videos will be included! Minor bug fixes! Delayed due to catcing a cold :feelsgood: :mask: .
+
 - More links to all the resources that are used.
 - Video demos, screen shots, and gifs to help visualize what's going on.
-- Guides for other Windows Store Distros.
-
 
 
 
