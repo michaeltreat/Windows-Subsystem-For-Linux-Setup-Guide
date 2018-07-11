@@ -122,7 +122,7 @@ Now when you type `cdwr` it will bring you to the root of your Windows User! Thi
 
 `C:\Users\<user>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs`
 
-4. If you want to create your own custom command line prompt you can check out [bashrcgenerator.com](bashrcgenerator.com) or [ezprompt.net](ezprompt.net) and use the code that provides instead of the code here. 
+4. If you want to create your own custom command line prompt you can check out [bashrcgenerator.com](http://bashrcgenerator.com) or [ezprompt.net](http://ezprompt.net) and use the code that provides instead of the code here. 
 
 
 ### Installing Software
