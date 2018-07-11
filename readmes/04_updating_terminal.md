@@ -79,7 +79,7 @@ export PS1="\[\e[m\]\[\e[36m\]\W\[\e[m\]\[\e[33m\]\`parse_git_branch\`\\$ "
 # This allows you to switch between the Ubuntu root and your Windows Root.
 
 # wr evaluates to the absolute path to your Windows user's root.
-export wr='~/../../mnt/c/Users/<Windows Username>/'
+export wr=~/../../mnt/c/Users/<Windows Username>/
 
 # This gives us a quick way of moving directly to the Windows root
 alias cdwr='cd $wr'
@@ -89,7 +89,7 @@ cdwr
 
 ```
 
-4. After pasting that in, you will need to add your Windows username right after `/Users/`. IE: `/Users/MichaelLeonTreat/`. Make sure to get the final `'` in there!
+4. After pasting that in, you will need to add your Windows username right after `/Users/`. IE: `/Users/MichaelLeonTreat/`.
 
 5. After that you're done in this editor, so press `ctrl + x` at the same time to quit. It will ask if you want to save changes. Hit `y` and the editor will save your changes. It will then ask what to name the file. Just hit enter to keep the same name. 
 
