@@ -21,7 +21,7 @@ By the end of this guide, you will know:
 1. Additional important information.
 
 ## Start Here: 
-Here is a link to the Video walk-through of this guide! I highly recommend you watch the videos while you go through this guide! You can watch them on 1.5x or 2x speed if you want it to go faster too :grin:
+Here is a [link to the Video walk-through](https://www.youtube.com/watch?v=ixqKqHfCDWM&list=PLOOqtDuWOt4auhgOzv8NdCDhBYgblR6Fd&index=1) of this guide! I highly recommend you watch the videos while you go through this guide! You can watch them on 1.5x or 2x speed if you want it to go faster too :grin:
 
 [Introduction into WSL](./readmes/01_preface.md) 
 
