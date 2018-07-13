@@ -13,7 +13,8 @@ After some setup, this gives you a native POSIX / Unix-like environment that you
 
 _**However**_, there are a few caveats:
  
-1. The Subsystem does not have access to a GUI, so it cannot run any programs that need one, IE: browser, editor. It is strictly a command line. 
+1. The Subsystem does not have access to a GUI, so it cannot run any programs that need one, IE: browser, editor. It is strictly a command line. (Technically it does have access to a GUI, but we make that assumption in our workflow. There are guides online that talk about ways to set this up. If I find one that works I'll link it in.)
+
 1. **You cannot edit the Subsystem's files through Windows or any Windows apps**. The Subsytem can edit both Windows and it's own files just fine though. 
  
 ## Workflow 
