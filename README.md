@@ -31,7 +31,7 @@ By the end of this guide, you will know:
 ### YouTube Video Walk-Through
 I created a set of videos which walked through the entire guide step by step, so you can see everything I do to get up and running! 
 
-[YouTube Playlist](https://www.youtube.com/watch?v=ixqKqHfCDWM&list=PLOOqtDuWOt4auhgOzv8NdCDhBYgblR6Fd&index=1) 
+#### [YouTube Playlist](https://www.youtube.com/watch?v=ixqKqHfCDWM&list=PLOOqtDuWOt4auhgOzv8NdCDhBYgblR6Fd&index=1) 
 
 I highly recommend you watch the videos while you go through this guide! I talked a tad bit slower on purpose so you can watch them on 1.5x or 2x speed too :grin: !
 
