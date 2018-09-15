@@ -15,6 +15,7 @@ This is not a Virtual Machine, emulator, or a console wrapper; it is literally L
 Please make sure to star or fork this repo! :bowtie: Thanks!
 
 ---
+---
 
 ### What this guide covers
 
@@ -26,8 +27,6 @@ By the end of this guide, you will know:
 1. How to update your terminal, and edit WSL files.
 1. Where, why, and how to install different programs and software.
 1. Additional important information.
-
----
 
 ### YouTube Video Walk-Through
 I created a set of videos which walked through the entire guide step by step, so you can see everything I do to get up and running! 
