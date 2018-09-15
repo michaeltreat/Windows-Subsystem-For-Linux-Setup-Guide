@@ -10,12 +10,12 @@ This is not a Virtual Machine, emulator, or a console wrapper; it is literally L
 
 ### Start Here:
 
-[Introduction into WSL](./readmes/01_preface.md) 
+Page 1: [Introduction into WSL](./readmes/01_preface.md) 
 
 Please make sure to star or fork this repo! :bowtie: Thanks!
 
 ---
----
+
 
 ### What this guide covers
 
