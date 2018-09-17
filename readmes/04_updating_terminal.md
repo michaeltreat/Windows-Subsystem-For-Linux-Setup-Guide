@@ -82,7 +82,7 @@ export PS1="\[\e[m\]\[\e[36m\]\W\[\e[m\]\[\e[33m\]\`parse_git_branch\`\\$ "
 export wr=~/../../mnt/c/Users/<Windows Username>/
 
 # This gives us a quick way of moving directly to the Windows root
-alias cdwr='cd $wr'
+alias cdwr='cd "$wr"'
 
 # This brings you to your Windows Working directory immediatly when you open a new terminal.
 cdwr
@@ -90,6 +90,8 @@ cdwr
 ```
 
 4. After pasting that in, you will need to add your Windows username right after `/Users/`. IE: `/Users/MichaelLeonTreat/`.
+
+4a. If your path has a space, you can use an backslash escape character to include the space. IE: `/Users/Michael\ Treat/`.
 
 5. After that you're done in this editor, so press `ctrl + x` at the same time to quit. It will ask if you want to save changes. Hit `y` and the editor will save your changes. It will then ask what to name the file. Just hit enter to keep the same name. 
 
