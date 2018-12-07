@@ -8,9 +8,11 @@ WSL is a feature that allows Windows users to work with a native Linux distro th
 
 This is not a Virtual Machine, emulator, or a console wrapper; it is literally Linux inside of Windows, directly mounted to the Windows File System. This guide uses examples that are relevant to Node.js developers, but you can substitue your own tools into the workflow.
 
-### Start Here:
+### Video Guide: [YouTube Playlist](https://www.youtube.com/watch?v=ixqKqHfCDWM&list=PLOOqtDuWOt4auhgOzv8NdCDhBYgblR6Fd&index=1) 
 
-Page 1: [Introduction into WSL](./readmes/01_preface.md) 
+I highly recommend you watch the videos while you go through this guide! I talked a tad bit slower on purpose so you can watch them on 1.5x or 2x speed too :grin: !
+
+### Page 1: [Introduction into WSL](./readmes/01_preface.md) 
 
 Please make sure to star or fork this repo! :bowtie: Thanks!
 
@@ -28,12 +30,6 @@ By the end of this guide, you will know:
 1. Where, why, and how to install different programs and software.
 1. Additional important information.
 
-### YouTube Video Walk-Through
-I created a set of videos which walked through the entire guide step by step, so you can see everything I do to get up and running! 
-
-#### [YouTube Playlist](https://www.youtube.com/watch?v=ixqKqHfCDWM&list=PLOOqtDuWOt4auhgOzv8NdCDhBYgblR6Fd&index=1) 
-
-I highly recommend you watch the videos while you go through this guide! I talked a tad bit slower on purpose so you can watch them on 1.5x or 2x speed too :grin: !
 
 ---
 
