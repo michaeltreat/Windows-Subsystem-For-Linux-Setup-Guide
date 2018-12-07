@@ -39,17 +39,15 @@ I highly recommend you watch the videos while you go through this guide! I talke
 
 ### Upcoming Additions:
 
-#### Due date: 11/01/18
+#### Release date: 01/19
 
-The fall release of Windows will be dropping soon, so I will go through it and update the guide as needed!
+Update: I will be updating this guide evry soon now! I have been so busy with the Microsoft LEAP program, a job transition, as well as with learning C++ and C# that I haven't spent any time with WSL since July! Having said that, there are quite a few additions to this guide which will help with quality of life, guide readability, new vidoes, annotations, checklists, clairifications, and hopefully an exploration into any new major features!
 
-- Checklist of everything you need to get up and running.
-- Gifs of specific sections of the videos.
-- Shortcut video that goes through the entire guide very quickly with minimal explainations ( instead of the 3ish hours that the current videos combined are).
-- Annotations added to current videos to allow you to jump around to different sections.
-- Adding more links to external docs.
-- Refinement of current guide.
+Most importantly, I will be shoreing up some areas that may be a struggle for new students and others new to WSL. One of the big ones is on how to use things like NPM for NodeJS: Where does global live, and how you should use it with the WSL workflow?
 
+I will also be creating a requested video where I go through making an entire basic web app to show what the workflow looks like in a real life scenario!
+
+Please make sure to request any thing else you would like to see and I will try to get it into the guide!
 
 ### Past Additions:
 
@@ -66,6 +64,8 @@ Huge thanks to [Izzy Baer](https://github.com/izzybaer) for editing this guide!
 
 Thanks to the [bashonubuntuonwindows community at Reddit](https://www.reddit.com/r/bashonubuntuonwindows/) for proofing this guide each update!
 
-Thanks to [Brenden Hesse](https://twitter.com/Brendan_LH) for including my in an [article he wrote on getting started with WSL](https://lifehacker.com/how-to-get-started-with-the-windows-subsystem-for-linux-1828952698) ( which I didn't know about until after I started seeing a bunch of traffic here.)
+Thanks to [Brenden Hesse](https://twitter.com/Brendan_LH) for including this guide in an [article he wrote on getting started with WSL](https://lifehacker.com/how-to-get-started-with-the-windows-subsystem-for-linux-1828952698) ( which I didn't know about until after I started seeing a bunch of traffic here (: )
+
+Also, Thank you to [Code Fellows](https://codefellows.org) for adopting this guide into their coursework for students who want to go through their courses on Windows machines instead of on a Mac.
 
 Thank you!
