@@ -34,6 +34,8 @@ By the end of this guide, you will know:
 
 #### Release date: 01/19
 
+**Keep an eye out for an update! I will be working on this over the next few days and hope to have it completed by 1/13 or 1/20!**
+
 Update: I will be updating this guide very soon now! I have been so busy with the Microsoft LEAP program, a job transition, as well as with learning C++ and C# that I haven't spent any time with WSL since July! Having said that, there are quite a few upcoming additions to this guide which will help with quality of life, guide readability, new vidoes, annotations, checklists, clairifications, and hopefully an exploration into any new major features!
 
 Most importantly, I will be shoring up some areas that may be a struggle for new students and others new to WSL. One of the big ones is on how to use things like NPM for NodeJS: Where does global live, and how you should use it with the WSL workflow?
