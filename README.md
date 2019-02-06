@@ -1,10 +1,12 @@
 # Windows Subsystem for Linux Setup
 
-This is an in-depth guide for new and experienced developers on how to get started with the Windows Subsystem for Linux.
+An in-depth guide for developers on how to get started with the Windows Subsystem for Linux.
 
 ![Microsoft and Linux](https://i.imgur.com/GOij8My.png)
 
-WSL is a Windows 10 feature that allows Windows users to work with a native Linux distro that is directly integrated into Windows. WSL is not a Virtual Machine, an emulator, or a console wrapper; it is literally Linux inside of Windows, directly mounted to the Windows File System, full stop. This guide is here to help developers understand how to get up and running with WSL, how to navigate the workflow, and also includes simple examples to help better explain the workflows.
+The Windows Subsystem for Linux feature on Windows 10 enables users to have a Linux enviroment fullying integrated into their Windows PC.
+
+For experienced developers: This is not a VM, a Dual-boot, or a console wrapper like Git Bash or Cygwin. It is a native POSIX environment directly mounted to your Windows File System.
 
 ### Video Guide: [YouTube Playlist](https://www.youtube.com/watch?v=ixqKqHfCDWM&list=PLOOqtDuWOt4auhgOzv8NdCDhBYgblR6Fd&index=1) 
 
