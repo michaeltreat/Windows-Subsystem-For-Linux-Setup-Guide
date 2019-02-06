@@ -10,6 +10,10 @@ For experienced developers: This is not a VM, a Dual-boot, or a console wrapper 
 
 ### Video Guide: [YouTube Playlist](https://www.youtube.com/watch?v=ixqKqHfCDWM&list=PLOOqtDuWOt4auhgOzv8NdCDhBYgblR6Fd&index=1) 
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ixqKqHfCDWM
+" target="_blank"><img src="http://img.youtube.com/vi/ixqKqHfCDWM/0.jpg" 
+alt="Windos Subsystem for Linux Part One: Introduction into WSL" width="240" height="180" border="10" /></a>
+
 I highly recommend you watch the videos while you go through this guide! I talked a tad bit slower on purpose so you can watch them on 1.5x or 2x speed too :grin: !
 
 ### Page 1: [Introduction into WSL](./readmes/01_preface.md) 
