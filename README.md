@@ -36,19 +36,7 @@ By the end of this guide, you will know:
 
 ### Checklist:
 
-This checklist can be used to help you keep track of all necessary steps that you need to complete in order to 'Complete' the WSL setup. 
-
-Required:
-- [ ] Enable WSL Feature through Windows.
-- [ ] Download Ubuntu from the Windows Store.
-- [ ] Setup Ubuntu Username and password.
-
-Optional:
-- [ ] Update your terminal profile.
-- [ ] Set working aliases to help with navigation.
-- [ ] Create a top-level NPM package.json to hold Windows-Side global packages. ( If you plan on using NPM at all that is.)
-- [ ] Review recommended work-flow and software installation notes.
-- [ ] Star this page and subsribe to my channel on YouTube :D Sorry, had to do it! 
+This link has a checklist that allows you to track your progess : ( link will be added later.)
 
 ### Upcoming Additions:
 
