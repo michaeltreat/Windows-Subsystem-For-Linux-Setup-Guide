@@ -1,0 +1,25 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+  }
+  
+  body{
+    width: 65%;
+    margin: auto;
+    background-color: rgb(243, 237, 237);
+  }
+  pre{
+    font-family: monospace;
+    background-color: rgb(47, 45, 45);
+    color: white;
+    padding-top: 1em;
+  }
+  div{
+    text-align: center;
+  }
+  div > p {
+    text-align: center
+  }
+  ul{
+      list-style-type: none;
+  }
