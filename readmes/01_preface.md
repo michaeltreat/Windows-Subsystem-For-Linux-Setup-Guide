@@ -1,5 +1,6 @@
 
 # Part 1: Introduction into the Windows Subsystem for Linux
+This section is a high level over-view about Linux as it relates to Windows. It provides context about why this feature is needed and why it's important. If you are already comfortable with this and just want to get to the install guide, move to Page 2:
 
 |Table of Contents|
 |---|
