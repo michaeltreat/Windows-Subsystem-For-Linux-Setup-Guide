@@ -97,4 +97,4 @@ The work flow is also extremely simple as you are working 95%+ of the time in a 
 
 ## Getting Started
 
-[Page 2: Setting up the Windows Subsystem for Linux](./02_WSL_Ubuntu_setup.md)
+[Page 2: Setting up WSL](./02_WSL_Ubuntu_setup.md)
