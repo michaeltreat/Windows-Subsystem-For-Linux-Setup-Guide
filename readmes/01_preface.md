@@ -1,17 +1,27 @@
 
-# Windows Subsystem for Linux 
+# Part 1: Introduction into the Windows Subsystem for Linux
 
-### TLDR; 
+|Table of Contents|
+|---|
+|[Too Long, Didn't Read](#tldr)|
+|[What is Linux?](#what-is-linux)|
+|[Why us the Subsystem for Linux?](#why-use-the-subsystem-for-linux)|
+|[What does WSL do?](#what-does-wsl-do)|
+|[Workflow](#workflow)|
+|[Summary](#summary)|
+|[Page 2: Setting up WSL](#getting-started)|
 
-POSIX is a classification of a type of Operating System. Mac and Linux are considered to be POSIX, but Windows is not. Windows as we know it doesn't run in POSIX, and this makes it difficult for some developers, especially webdevs, to develop on Windows, as they need access to a POSIX environment.
+### TLDR;
+
+POSIX is a classification of a type of Operating System. Mac and Linux are considered to be POSIX, but Windows is not. Windows as we know it doesn't run in POSIX, and this makes it difficult for some developers, especially webdevs, to develop on Windows as they need access to a POSIX environment.
 
 The Windows Subsystem for Linux overcomes this limitation by allowing developers to access a fully integrated, native Linux environment that is directly mounted to their Windows OS. This means Developers no longer have to Dual boot or use console wrappers like CYGWIN or Git Bash. They have a Linux Subsystem that is fully capabale of running Linux Shell commands and POSIX Software on their Windows files.
 
 There are some limitations, but those are easily overcome with a good work-flow and an understanding of how to interact between the two file systems. 
 
-This next section will go in-depth between the differences between Windows, Mac, Linux, and explain more about POSIX, UNIX, and non- ~IX Operating Systems. This is here to broaded your understanding, but if you are already comfortable with this topic, then skip to [Why the Subsystem for Linux then?](#why-the-subsystem-for-linux-then?)
+This next section will go in-depth between the differences between Windows, Mac, Linux, and explain more about POSIX, UNIX, and non- ~IX Operating Systems. This is here to broaded your understanding, but if you are already comfortable with this topic, then skip to [Why the Subsystem for Linux then?](#why-use-the-subsystem-for-linux?)
  
-### What is Linux? 
+### What is Linux?
 
 When it comes to computers, most people tend to think in terms of Windows and Macs, or Microsoft and Apple. But what about Linux? Where does Linux fit into this picture? What even is Linux?
 
@@ -33,7 +43,7 @@ Most consumers don't use Linux because Linux tends to be something developers lo
 
 For developers though, they are a bit more experienced with the inner-workings of computers and with Command Line Interfaces ( CLIs), and find that they prefer the Operating Systems with less consumer features more appelaing. This is also why most of the servers on the web use some form of Linux.
 
-## Why the Subsystem for Linux then?
+## Why use the Subsystem for Linux?
 
 Web Development on Windows can be somewhat difficult at times because it doesn't have the ability to run POSIX software. This is because Windows is considered to be non POSIX-compliant. This causes a bit of a problem for Web-devs, and with no native solution they turn to Mac. This, in part, is why you might have felt like there was an explosion of Mac usage during the Web 2.0 phase around 2007 - 2008 and why it seemed like all the hottest web startups had Macs everywhere: Macs, in general, were just better when it came to developing for the Web.
  
@@ -41,7 +51,7 @@ There have been many different workarounds for to this problem for webdevs: Dual
 
 (If your're curious on how this scenario came to be, here is a great article explaining the history of how Windows came to be in it's current state: https://www.quora.com/If-macOS-and-Linux-are-based-on-Unix-then-what-is-Windows-based-on-and-why-was-it-implemented-like-this-by-Bill-Gates
 
-### What does WSL (Windows Subsystem for Linux) do?
+### What does WSL do?
  
 Microsoft released a feature available to all PCs running on Windows 10 called Windows Subsystem for Linux, otherwise known as WSL. WSL gives you the ability to install a Linux distribution like Ubuntu and Fedora and to connect it directly to the Windows File System. 
 
