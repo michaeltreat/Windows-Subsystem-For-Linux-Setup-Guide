@@ -16,10 +16,6 @@ Link to the [WSL Video Playlist](https://www.youtube.com/channel/UCh0yhZV7OrQ-vo
 
 I highly recommend you watch the videos while you go through this guide! I talked a tad bit slower on purpose so you can watch them on 1.5x or 2x speed too :grin: !
 
-### Page 1: [Introduction into WSL](./readmes/01_preface.md) 
-
-Please make sure to star or fork this repo! :bowtie: Thanks!
-
 ---
 
 
@@ -39,6 +35,15 @@ By the end of this guide, you will know:
 ### Checklist:
 
 This link has a checklist that allows you to track your progess : ( link will be added later.)
+
+#### Ready to begin? 
+
+Go to Page 1: [Introduction into WSL](./readmes/01_preface.md) 
+
+-----
+
+Note to dev: seperate the bottom part into a credits markdown.
+
 
 ### Upcoming Additions:
 
