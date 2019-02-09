@@ -9,60 +9,123 @@
 </head>
 <body>
     <h1>Checklist for the Windows Subsystem for Linux</h1>
+    
     <section>
         <p> This checklist can be used to help you keep track of all necessary steps that you need to complete in order to 'Complete' the WSL setup. </p>
+        
         <div>
             <h3>Required:</h3>
+            
             <ul>
                 <li>
                     <label for="enable-wsl">
                         <input type="checkbox" name="enable-wsl" checked="false"> Enable WSL Feature through Windows.
                     </label>
                 </li>
-                <li>
-                    
+
+                <li>  
                     <label for="get-ubuntu">
                         <input type="checkbox" name="get-ubuntu" checked="false"> Download Ubuntu from the Windows Store.
                     </label>
                 </li>
+
                 <li>
-                    
                     <label for="username">
                         <input type="checkbox" name="username" checked="false"> Setup Ubuntu Username and password.
                     </label>
                 </li>
+
+
             </ul>
         </div>
+
         <div>
-
-            <h3>Optional:</h3>
+            <h3>Recommend:</h3>
+            
             <ul>
-
-                <li>
-                    
+                <li>    
                     <label for="terminal-profile">
                         <input type="checkbox" name="terminal-profile" checked="false"> Update your terminal profile.
                     </label>
                 </li>
-                <li>
-                    
+
+                <li>    
                     <label for="aliases">
                         <input type="checkbox" name="aliases" checked="false"> Setup aliases to help with navigation.
                     </label>
                 </li>
-                <li>
-                    
-                    <label for="global-npm">
-                        <input type="checkbox" name="global-npm" checked="false"> Create a top-level NPM package.json to hold Windows-Side global packages.
-                    </label>
-                </li>
-                <li>
-                    
+
+                <li>    
                     <label for="work-flow">
                         <input type="checkbox" name="work-flow" checked="false"> Review recommended work-flow and software installation notes.
                     </label>
                 </li>
+
+
             </ul>
+        </div>
+
+        <div>
+            <h3>Optional:</h3>
+            
+            <ul>
+                <li>    
+                    <label for="global-npm">
+                        <input type="checkbox" name="global-npm" checked="false"> Create a top-level NPM package.json to hold Windows-Side global packages.
+                    </label>
+                </li>
+
+                <li>
+                    <label for="vs-code">
+                        <input type="checkbox" name="vs-code" checked="false"> Install VSCode
+                    </label>
+                </li>
+
+                <li>
+                    <label for="git">
+                        <input type="checkbox" name="git" checked="false"> Install Git on the Windows Side for use with VSCode SCM.
+                    </label>
+                </li>
+              
+
+            </ul>
+        </div>
+
+        <div>
+            <h3>Challenge:</h3>
+                <ul>
+                    <li>    
+                        <label for="live-server">
+                            <input type="checkbox" name="live-server" checked="false"> Install and run live-server with a simple, sample HTML file.
+                        </label>
+                    </li>
+                </ul>
+
+            <p> Once you have completed the above steps, try to figure out how to get 'live-server' from NPM running on your machince.</p>
+
+            <p> There are instructions in the guide, but before you read those, try to figure out how you would get this up and running.
+                This will give you the chance to safely play with things on both systems, how to troubleshoot between the two, and ultimatly 
+                will help strengthen your work-flow.
+            
+            </p>
+            
+            <h4> Some context on what live-server is:</h4>
+            
+            <p> <a href="https://www.npmjs.com/package/live-server">Live-server</a> allows you to setup a simple development server which will load your 
+                HTML page in your browser. It also has a hot-reload feature that detects when you make a change to a file, and automatically reloads the web page for you. 
+                It uses NPM, but also makes use of your browser, so you must take those things into consideration when trying to install it.
+            </p>
+            
+            <p> NPM also uses a heirarchy structure when looking for packages. This means that it will look in your current working directory for the package first,
+                but then look upwards until it reaches the top-most level.
+            </p>
+
+            <h4>Expected result:</h4>
+
+            <p> You will know you are done when you are able to type <code>live-server</code> into your working directory's commandline and have it open your browser
+                and display your HTML page.
+            </p>
+            
         </div>
         
     </section>

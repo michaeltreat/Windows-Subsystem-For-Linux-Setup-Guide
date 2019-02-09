@@ -12,14 +12,22 @@
     font-family: monospace;
     background-color: rgb(47, 45, 45);
     color: white;
-    padding-top: 1em;
+    
+  }
+  code{
+    font-family: monospace;
+    color:black;
+    background-color: gainsboro;
+    padding-left: 1em;
+    padding-right: 1em;
   }
   div{
     text-align: center;
   }
-  div > p {
-    text-align: center
-  }
+ 
   ul{
       list-style-type: none;
+  }
+  label{
+    font-family: monospace;
   }
