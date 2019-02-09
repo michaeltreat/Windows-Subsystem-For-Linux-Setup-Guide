@@ -36,7 +36,7 @@ By the end of this guide, you will know:
 
 ### Checklist:
 
-This link has a checklist that allows you to track your progess : ( link will be added later.)
+Use [This Checklist](https://michaeltreat.github.io/Windows-Subsystem-For-Linux-Setup-Guide/) to help keep track of your progress! There is also a challenge at the bottom designed to help you learn more about the work-flow as well. `CTRL + CLICK` To open in a new window!
 
 #### Ready to begin? 
 
