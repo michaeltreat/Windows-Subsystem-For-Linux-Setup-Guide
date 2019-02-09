@@ -73,9 +73,9 @@ You will need to run a quick couple commands in order to run updates software up
 
 1. Type `sudo apt-get update`.
  - [What does sudo apt-get update do?](https://askubuntu.com/questions/222348/what-does-sudo-apt-get-update-do)
-1. Once that is complete, type `sudo apt-get upgrade`. Press `y` when prompted. 
+2. Once that is complete, type `sudo apt-get upgrade`. Press `y` when prompted. 
  - [What does sudo apt-get upgrade do?](https://askubuntu.com/questions/94102/what-is-the-difference-between-apt-get-update-and-upgrade)
-1. Once that is done, type `sudo apt autoremove`. This will remove any packages that are no longer needed.
+3. Once that is done, type `sudo apt autoremove`. This will remove any packages that are no longer needed.
  - [What does sudo apt-get autoremove do?](https://ubuntuforums.org/showthread.php?t=996053)
 
 ## Understanding the File-Systems
