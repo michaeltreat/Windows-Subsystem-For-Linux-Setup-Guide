@@ -1,4 +1,4 @@
-🔥 # Page 2: Setting up WSL
+# 🔥 Page 2: Setting up WSL
 
 This section will guide you through all the required steps of the checklist. This includes:
 
