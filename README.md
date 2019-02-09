@@ -1,18 +1,22 @@
 # Windows Subsystem for Linux Setup
 
-This is an in-depth guide for new and experienced developers on how to get started with the Windows Subsystem for Linux.
+An in-depth guide for developers on how to get started with the Windows Subsystem for Linux.
 
 ![Microsoft and Linux](https://i.imgur.com/GOij8My.png)
 
-WSL is a Windows 10 feature that allows Windows users to work with a native Linux distro that is directly integrated into Windows. WSL is not a Virtual Machine, an emulator, or a console wrapper; it is literally Linux inside of Windows, directly mounted to the Windows File System, full stop. This guide is here to help developers understand how to get up and running with WSL, how to navigate the workflow, and also includes simple examples to help better explain the workflows.
+The Windows Subsystem for Linux feature on Windows 10 enables users to have a Linux enviroment fully integrated into their Windows PC.
 
-### Video Guide: [YouTube Playlist](https://www.youtube.com/watch?v=ixqKqHfCDWM&list=PLOOqtDuWOt4auhgOzv8NdCDhBYgblR6Fd&index=1) 
+For ~~experienced~~ all developers: This is not a VM, a Dual-boot, or a console wrapper like Git Bash or Cygwin. It is a native POSIX environment directly mounted to your Windows File System.
 
-I highly recommend you watch the videos while you go through this guide! I talked a tad bit slower on purpose so you can watch them on 1.5x or 2x speed too :grin: !
+### Video Guide: 
 
-### Page 1: [Introduction into WSL](./readmes/01_preface.md) 
+This guide also has a video walkthrough of it on YouTube where it goes into great detail on each section to help provide you with as much context as possible.
 
-Please make sure to star or fork this repo! :bowtie: Thanks!
+It's recommended you watch the videos while you go through this guide as they will help clairify many of these points with visuals.
+
+Link to the [WSL Video Playlist](https://www.youtube.com/channel/UCh0yhZV7OrQ-vojQBqSF0RA/).
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ixqKqHfCDWM" target="_blank"><img src="http://img.youtube.com/vi/ixqKqHfCDWM/0.jpg" alt="Windows Subsystem for Linux Part One: Introduction into WSL"/></a>
 
 ---
 
@@ -30,37 +34,10 @@ By the end of this guide, you will know:
 
 ---
 
-### Upcoming Additions:
+### Checklist:
 
-#### Release date: 01/19
+This link has a checklist that allows you to track your progess : ( link will be added later.)
 
-**Keep an eye out for an update! I will be working on this over the next few days and hope to have it completed by 1/13 or 1/20!**
+#### Ready to begin? 
 
-Update: I will be updating this guide very soon now! I have been so busy with the Microsoft LEAP program, a job transition, as well as with learning C++ and C# that I haven't spent any time with WSL since July! Having said that, there are quite a few upcoming additions to this guide which will help with quality of life, guide readability, new vidoes, annotations, checklists, clairifications, and hopefully an exploration into any new major features!
-
-Most importantly, I will be shoring up some areas that may be a struggle for new students and others new to WSL. One of the big ones is on how to use things like NPM for NodeJS: Where does global live, and how you should use it with the WSL workflow?
-
-I will also be creating a requested video where I go through making an entire basic web app to show what the workflow looks like in a real life scenario!
-
-Please make sure to request any thing else you would like to see and I will try to get it into the guide!
-
-### Past Additions:
-
-#### 7/18: 
-- Getting new laptop on 7/1/18 and will update the doc in that month. ( Update coming soon! Videos will be included! Minor bug fixes! Delayed due to catcing a cold :feelsgood: :mask:. (DONE!)
-
-- More links to all the resources that are used.
-- Video demos, screen shots, and gifs to help visualize what's going on.
-
----
-
-### Credits
-Huge thanks to [Izzy Baer](https://github.com/izzybaer) for editing this guide!
-
-Thanks to the [bashonubuntuonwindows community at Reddit](https://www.reddit.com/r/bashonubuntuonwindows/) for proofing this guide each update!
-
-Thanks to [Brenden Hesse](https://twitter.com/Brendan_LH) for including this guide in an [article he wrote on getting started with WSL](https://lifehacker.com/how-to-get-started-with-the-windows-subsystem-for-linux-1828952698) ( which I didn't know about until after I started seeing a bunch of traffic here (: )
-
-Also, Thank you to [Code Fellows](https://codefellows.org) for adopting this guide into their coursework for students who want to go through their courses on Windows machines instead of on a Mac.
-
-Thank you!
+Go to Page 1: [Introduction into WSL](./readmes/01_preface.md) 

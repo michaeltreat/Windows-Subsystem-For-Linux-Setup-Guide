@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Checklist for settuing up the Windows Subsystem for Linux</title>
+</head>
+<body>
+    <h1>Checklist for the Windows Subsystem for Linux</h1>
+    <section>
+        <p> This checklist can be used to help you keep track of all necessary steps that you need to complete in order to 'Complete' the WSL setup. </p>
+        <div>
+            <h3>Required:</h3>
+            <ul>
+                <li>
+                    <label for="enable-wsl">
+                        <input type="checkbox" name="enable-wsl" checked="false"> Enable WSL Feature through Windows.
+                    </label>
+                </li>
+                <li>
+                    
+                    <label for="get-ubuntu">
+                        <input type="checkbox" name="get-ubuntu" checked="false"> Download Ubuntu from the Windows Store.
+                    </label>
+                </li>
+                <li>
+                    
+                    <label for="username">
+                        <input type="checkbox" name="username" checked="false"> Setup Ubuntu Username and password.
+                    </label>
+                </li>
+            </ul>
+        </div>
+        <div>
+
+            <h3>Optional:</h3>
+            <ul>
+
+                <li>
+                    
+                    <label for="terminal-profile">
+                        <input type="checkbox" name="terminal-profile" checked="false"> Update your terminal profile.
+                    </label>
+                </li>
+                <li>
+                    
+                    <label for="aliases">
+                        <input type="checkbox" name="aliases" checked="false"> Setup aliases to help with navigation.
+                    </label>
+                </li>
+                <li>
+                    
+                    <label for="global-npm">
+                        <input type="checkbox" name="global-npm" checked="false"> Create a top-level NPM package.json to hold Windows-Side global packages.
+                    </label>
+                </li>
+                <li>
+                    
+                    <label for="work-flow">
+                        <input type="checkbox" name="work-flow" checked="false"> Review recommended work-flow and software installation notes.
+                    </label>
+                </li>
+            </ul>
+        </div>
+        
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
