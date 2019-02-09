@@ -11,7 +11,7 @@
 |[Summary](#summary)|
 |[Page 2: Setting up WSL](#getting-started)|
 
-### TLDR;
+## TLDR;
 
 POSIX is a classification of a type of Operating System. Mac and Linux are considered to be POSIX, but Windows is not. Windows as we know it doesn't run in POSIX, and this makes it difficult for some developers, especially webdevs, to develop on Windows as they need access to a POSIX environment.
 
@@ -21,7 +21,7 @@ There are some limitations, but those are easily overcome with a good work-flow 
 
 This next section will go in-depth between the differences between Windows, Mac, Linux, and explain more about POSIX, UNIX, and non- ~IX Operating Systems. This is here to broaded your understanding, but if you are already comfortable with this topic, then skip to [Why the Subsystem for Linux then?](#why-use-the-subsystem-for-linux?)
  
-### What is Linux?
+## What is Linux?
 
 When it comes to computers, most people tend to think in terms of Windows and Macs, or Microsoft and Apple. But what about Linux? Where does Linux fit into this picture? What even is Linux?
 
@@ -51,7 +51,7 @@ There have been many different workarounds for to this problem for webdevs: Dual
 
 (If your're curious on how this scenario came to be, here is a great article explaining the history of how Windows came to be in it's current state: https://www.quora.com/If-macOS-and-Linux-are-based-on-Unix-then-what-is-Windows-based-on-and-why-was-it-implemented-like-this-by-Bill-Gates
 
-### What does WSL do?
+## What does WSL do?
  
 Microsoft released a feature available to all PCs running on Windows 10 called Windows Subsystem for Linux, otherwise known as WSL. WSL gives you the ability to install a Linux distribution like Ubuntu and Fedora and to connect it directly to the Windows File System. 
 
