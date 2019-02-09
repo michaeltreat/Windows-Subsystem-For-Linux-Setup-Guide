@@ -12,7 +12,7 @@ For ~~experienced~~ all developers: This is not a VM, a Dual-boot, or a console 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=ixqKqHfCDWM" target="_blank"><img src="http://img.youtube.com/vi/ixqKqHfCDWM/0.jpg" alt="Windows Subsystem for Linux Part One: Introduction into WSL"/></a>
 
-[WSL Video Playlist](https://www.youtube.com/channel/UCh0yhZV7OrQ-vojQBqSF0RA/) on YouTube!
+Link to the [WSL Video Playlist](https://www.youtube.com/channel/UCh0yhZV7OrQ-vojQBqSF0RA/) on YouTube!
 
 I highly recommend you watch the videos while you go through this guide! I talked a tad bit slower on purpose so you can watch them on 1.5x or 2x speed too :grin: !
 
