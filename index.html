@@ -12,6 +12,10 @@
     
     <section>
         <p> This checklist can be used to help you keep track of all necessary steps that you need to complete in order to 'Complete' the WSL setup. </p>
+
+        <p>
+            <button id='clear-btn'>Clear Progress</button>
+        </p>
         
         <div>
             <h3>Required:</h3>
@@ -19,19 +23,19 @@
             <ul>
                 <li>
                     <label for="enable-wsl">
-                        <input type="checkbox" name="enable-wsl" checked="false"> Enable WSL Feature through Windows.
+                        <input type="checkbox" name="enable-wsl"> Enable WSL Feature through Windows.
                     </label>
                 </li>
 
                 <li>  
                     <label for="get-ubuntu">
-                        <input type="checkbox" name="get-ubuntu" checked="false"> Download Ubuntu from the Windows Store.
+                        <input type="checkbox" name="get-ubuntu"> Download Ubuntu from the Windows Store.
                     </label>
                 </li>
 
                 <li>
                     <label for="username">
-                        <input type="checkbox" name="username" checked="false"> Setup Ubuntu Username and password.
+                        <input type="checkbox" name="username"> Setup Ubuntu Username and password.
                     </label>
                 </li>
 
@@ -45,19 +49,19 @@
             <ul>
                 <li>    
                     <label for="terminal-profile">
-                        <input type="checkbox" name="terminal-profile" checked="false"> Update your terminal profile.
+                        <input type="checkbox" name="terminal-profile"> Update your terminal profile.
                     </label>
                 </li>
 
                 <li>    
                     <label for="aliases">
-                        <input type="checkbox" name="aliases" checked="false"> Setup aliases to help with navigation.
+                        <input type="checkbox" name="aliases"> Setup aliases to help with navigation.
                     </label>
                 </li>
 
                 <li>    
                     <label for="work-flow">
-                        <input type="checkbox" name="work-flow" checked="false"> Review recommended work-flow and software installation notes.
+                        <input type="checkbox" name="work-flow"> Review recommended work-flow and software installation notes.
                     </label>
                 </li>
 
@@ -71,19 +75,19 @@
             <ul>
                 <li>    
                     <label for="global-npm">
-                        <input type="checkbox" name="global-npm" checked="false"> Create a top-level NPM package.json to hold Windows-Side global packages.
+                        <input type="checkbox" name="global-npm"> Create a top-level NPM package.json to hold Windows-Side global packages.
                     </label>
                 </li>
 
                 <li>
                     <label for="vs-code">
-                        <input type="checkbox" name="vs-code" checked="false"> Install VSCode
+                        <input type="checkbox" name="vs-code"> Install VSCode
                     </label>
                 </li>
 
                 <li>
                     <label for="git">
-                        <input type="checkbox" name="git" checked="false"> Install Git on the Windows Side for use with VSCode SCM.
+                        <input type="checkbox" name="git"> Install Git on the Windows Side for use with VSCode SCM.
                     </label>
                 </li>
               
@@ -96,7 +100,7 @@
                 <ul>
                     <li>    
                         <label for="live-server">
-                            <input type="checkbox" name="live-server" checked="false"> Install and run live-server with a simple, sample HTML file.
+                            <input type="checkbox" name="live-server"> Install and run live-server with a simple, sample HTML file.
                         </label>
                     </li>
                 </ul>
@@ -129,6 +133,6 @@
         </div>
         
     </section>
-    <script src="./src/app.js"></script>
+    <script src="src/app.js"></script>
 </body>
 </html>

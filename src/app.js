@@ -14,6 +14,7 @@
 var state = {};
 var fLocalStorage = false;
 var labels = document.getElementsByTagName('label');
+var checkBoxes;
 
 // Changes the state object, and updates the value in localStorage.
 function changeState(label, status){
@@ -21,18 +22,22 @@ function changeState(label, status){
     localStorage.state = JSON.stringify(state)
 };
 
+function getInputBoxes(){
+    checkBoxes = document.getElementsByTagName('input');
+}
+
 
 // If there is a local storage, reassign the previous state to the checkboxes.
 if(localStorage.state){
     state = JSON.parse(localStorage.state);
     fLocalStorage = true;
     
-    let boxes = document.getElementsByTagName('input')
+    if(!checkBoxes) getInputBoxes()
     
     // When assiging each box, use the boxes name as the key
     // to retrieve the value from the state object
-    for(let i = 0; i < boxes.length; i++){
-        boxes[i].checked = state[boxes[i].name];    
+    for(let i = 0; i < checkBoxes.length; i++){
+        checkBoxes[i].checked = state[checkBoxes[i].name];    
     }
 } 
 
@@ -53,5 +58,20 @@ for( let i = 0; i < labels.length; i++){
             checkbox.checked = !checkbox.checked;
             changeState(labels[i].htmlFor, checkbox.checked)
         }
+
+        if(e.target.tagName === 'INPUT'){
+            changeState(labels[i].htmlFor, e.target.checked)
+        }
     });
 };
+
+// Clears all boxes and deletes localstorage.
+document.getElementById('clear-btn').addEventListener('click', e =>{
+    if(!checkBoxes) getInputBoxes(); 
+    for(let i = 0; i < checkBoxes.length; i++){
+        checkBoxes[i].checked = false;    
+    }
+    localStorage.clear();
+    fLocalStorage = false;
+
+})
