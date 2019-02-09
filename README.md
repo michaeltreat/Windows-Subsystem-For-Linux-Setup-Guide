@@ -36,7 +36,9 @@ By the end of this guide, you will know:
 
 ### Checklist:
 
-Use [This Checklist](https://michaeltreat.github.io/Windows-Subsystem-For-Linux-Setup-Guide/) to help keep track of your progress! There is also a challenge at the bottom designed to help you learn more about the work-flow as well. `CTRL + CLICK` To open in a new window!
+Use [This Checklist](https://michaeltreat.github.io/Windows-Subsystem-For-Linux-Setup-Guide/) to help keep track of your progress! It makes use of Local Storgae to maintain your progress even if you close the Window. Note:  `CTRL + CLICK` to open in a new window!
+
+There is also a challenge at the bottom designed to help you learn more about the work-flow as well.
 
 #### Ready to begin? 
 
