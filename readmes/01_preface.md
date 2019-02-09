@@ -5,7 +5,7 @@
 |---|
 |[Too Long, Didn't Read](#tldr)|
 |[What is Linux?](#what-is-linux)|
-|[Why us the Subsystem for Linux?](#why-use-the-subsystem-for-linux)|
+|[Why use the Subsystem for Linux?](#why-use-the-subsystem-for-linux)|
 |[What does WSL do?](#what-does-wsl-do)|
 |[Workflow](#workflow)|
 |[Summary](#summary)|
