@@ -1,7 +1,7 @@
 
 # Windows Subsystem for Linux 
  
-## Overview  
+### Overview  
  
 Web Development on Windows can be a bit tricky because unlike OSX or Linux, Windows does not run in a POSIX environment. Much of the software you use as a developer is designed to run in POSIX environments, and many of the web's servers are also running in some POSIX environment. This causes problems because Windows uses different console commands and not all of those commands translate over to POSIX very well. 
  
