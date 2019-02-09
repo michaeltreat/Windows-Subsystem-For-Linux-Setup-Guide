@@ -35,7 +35,7 @@ POSIX (Portable Operating System Interface) is also very similary to what we thi
 
 Alright, that's a lot of -IX's. What does all this mean?
 
-When we say Linux, we are refering to a type of operating system, and usually those operating systems are all based off of POSIX or UNIX-like standards. Macs are a technically a type of Linux. PC's however, are generally NOT considered to be POSIX or UNIX-like, as they don't follow the same set of standards that Linux or Macs do. This is why you can't just load your application from Windows right into a Mac; they just don't fit together.
+When we say Linux, we are refering to a type of operating system, and usually those operating systems are all based off of POSIX or UNIX-like standards. Macs are a technically a type of Linux. PC's however, are generally NOT considered to be POSIX or UNIX-like, as they don't follow the same set of standards that Linux or Macs do. This is why you can't just load your application from Windows right into a Mac or vice versa; they just don't fit together.
 
 This doesn't mean anything about which one is better or worse. It's like the difference between JavaScript vs PHP vs Python vs C++; It's not a measure of quality, but of structure and ability. There are benefits to one or the other depending on your useage, but that's the reason why all of them are so popular; they all have their uses!
 
