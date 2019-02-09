@@ -3,13 +3,13 @@
 
 ### TLDR; 
 
-Windows as we know it doesn't run in POSIX, but Mac and Linux does. This makes it difficult for some developers, especially webdevs, to develop on Windows, as they need access to a POSIX environment, of which Windows is not.
+POSIX is a classification of a type of Operating System. Mac and Linux are considered to be POSIX, but Windows is not. Windows as we know it doesn't run in POSIX, and this makes it difficult for some developers, especially webdevs, to develop on Windows, as they need access to a POSIX environment.
 
 The Windows Subsystem for Linux overcomes this limitation by allowing developers to access a fully integrated, native Linux environment that is directly mounted to their Windows OS. This means Developers no longer have to Dual boot or use console wrappers like CYGWIN or Git Bash. They have a Linux Subsystem that is fully capabale of running Linux Shell commands and POSIX Software on their Windows files.
 
-There are some limitations, but those are easily overcome with a good work-flow and understanding of how to interact between the two file systems. 
+There are some limitations, but those are easily overcome with a good work-flow and an understanding of how to interact between the two file systems. 
 
-This next section will go in-depth between the differences between Windows, Mac, Linux, and explain more about POSIX, UNIX, and non- ~IX OS systems. This is here to broaded your understanding, but if you are comfortable with that, then skip to [Why the Subsystem for Linux then?](#why-the-subsystem-for-linux-then?)
+This next section will go in-depth between the differences between Windows, Mac, Linux, and explain more about POSIX, UNIX, and non- ~IX OS systems. This is here to broaded your understanding, but if you are already comfortable with this topic, then skip to [Why the Subsystem for Linux then?](#why-the-subsystem-for-linux-then?)
  
 ### What is Linux? 
 
