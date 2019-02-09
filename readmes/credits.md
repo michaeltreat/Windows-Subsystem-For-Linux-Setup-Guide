@@ -1,4 +1,31 @@
 
+#### Change log 2/8/2019:
+
+##### Git Hub:
+
+* Added "embedded" video into video section.
+  - This is actually link wrapped around an image tag of the first youtube video. It will show like a video, but opens up to youtube.
+    - Also, need to find out how a click on it opens in a new tab. _blank doesn't work here.
+
+* Cleaned up the flow and organization of the main entry doc. 
+  - Removed the bottom section ( essentially the credits, updates/versioning section ) into it's own doc.
+  - Moved the "Begin here" section to the bottom of the doc where it is more expected to be.
+  - Added a checklist section to allow users to track their progress along with the guide.
+
+* Added gh-pages branch to host the checklist.
+
+##### Youtube:
+
+* Cleaned up and standardized the language between all videos to become more consistant.
+* Added a new thumbnail image to each video to better identify which video is which.
+* Named the videos as follows:
+  - Part 1: Introduction into WSL
+  - Part 2: Setting up WSL
+  - Part 3: WSL Work-Flow and Software.
+* Re-arragned the way the videos are listed on the channel so that they show up in order from 1 - 3.
+* Organized the playlist for better quality and discoverablility.
+* Updated the channel description to better convey the intent of the channel, and the videos within it.
+
 ### Upcoming Additions:
 
 #### Release date: 01/19
