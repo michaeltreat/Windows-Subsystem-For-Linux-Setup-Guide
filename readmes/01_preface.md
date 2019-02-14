@@ -32,9 +32,9 @@ Linux is a *family* of operating systems that is open-sourced, and is modelled o
 
 UNIX is more of design structure and philosophy than it is an actual thing like we might think of when we say Mac, PC, or Linux. It's " [a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center..."](https://en.wikipedia.org/wiki/Unix)(- Wikipedia). Essentially, we use the term UNIX to describe a specific type of operating system, much like we do when we call something a Mac or a PC. The only difference here is that this is less of a specific opertaing system, and more of a description of one. IE: Macs are UNIX-like, and PCs are non-UNIX-like.
 
-Linux and Max are actually both considered 'POISX', as both are derived from POSIX standarads. Okay, so what is POSIX then?
+Linux and Macs are actually both considered 'POISX', as both are derived from POSIX standarads. Okay, so what is POSIX then?
 
-POSIX (Portable Operating System Interface) is also very similary to what we think of when we talk about UNIX, except that it defines more of a set of standards that operating systems must comply with to be considered "fully POSIX Complatable". POSIX is "[a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems"](https://en.wikipedia.org/wiki/POSIX)(- Wikipedia). Essentially, for something to be POSIX, it must ensure that it can run all POSIX compliant applications seemlessly.
+POSIX (Portable Operating System Interface) is also very similar to what we think of when we talk about UNIX, except that it defines more of a set of standards that operating systems must comply with to be considered "fully POSIX Complatable". POSIX is "[a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems"](https://en.wikipedia.org/wiki/POSIX)(- Wikipedia). Essentially, for something to be POSIX, it must ensure that it can run all POSIX compliant applications seemlessly.
 
 Alright, that's a lot of -IX's. What does all this mean?
 
@@ -44,13 +44,15 @@ This doesn't mean anything about which one is better or worse. It's like the dif
 
 Most consumers don't use Linux because Linux tends to be something developers love to use. It's slimmed down, and typically has minimal UI, exposing only a command line ( think MS-DOS, or 1980's looking computers, or pre-windows/macintosh days). As such, a typcial person finds using Windows or Macs easier because they have many consumer features like fleshed out Graphical User Interface, or GUIs ( the visual part ). 
 
-For developers though, they are a bit more experienced with the inner-workings of computers and with Command Line Interfaces ( CLIs), and find that they prefer the Operating Systems with less consumer features more appelaing. This is also why most of the servers on the web use some form of Linux.
+For developers though, they are a bit more experienced with the inner-workings of computers and with Command Line Interfaces ( CLIs), and find that they prefer the Operating Systems with less consumer features more appealing. This is also why most of the servers on the web use some form of Linux.
 
 ## Why use the Subsystem for Linux?
 
-Web Development on Windows can be somewhat difficult at times because it doesn't have the ability to run POSIX software. This is because Windows is considered to be non POSIX-compliant. This causes a bit of a problem for Web-devs, and with no native solution they turn to Mac. This, in part, is why you might have felt like there was an explosion of Mac usage during the Web 2.0 phase around 2007 - 2008 and why it seemed like all the hottest web startups had Macs everywhere: Macs, in general, were just better when it came to developing for the Web.
+Web Development on Windows can be somewhat difficult at times because it doesn't have the ability to run POSIX software. This is because Windows is considered to be non POSIX-compliant. This causes a bit of a problem for Web-devs, and with no native solution they turn to Mac. 
+
+*Opinion: This, in part, is why you might have felt like there was an explosion of Mac usage during the Web 2.0 phase around 2007 - 2008 and why it seemed like all the hottest web startups had Macs everywhere: Macs, in general, were just less complicated to use when it came to developing for the Web.*
  
-There have been many different workarounds for to this problem for webdevs: Dual-booting or VMing a Linux distro, terminal wrappers like CYGWIN or Git Bash, software versions made specifically for Windows, hacky workarounds, etc. Each of these workarounds has their pros and cons, but in the end it really just ended up taking time to try and figure out how to proceed when all you really want to do is just get back to work. 
+There have been many different workarounds for to this problem for webdevs using Windows: Dual-booting or VMing a Linux distro, terminal wrappers like CYGWIN or Git Bash, software versions made specifically for Windows, hacky workarounds, etc. Each of these workarounds has their pros and cons, but in the end it really just ended up taking time to try and figure out how to proceed when all you really want to do is just get back to work. 
 
 (If your're curious on how this scenario came to be, here is a great article explaining the history of how Windows came to be in it's current state: https://www.quora.com/If-macOS-and-Linux-are-based-on-Unix-then-what-is-Windows-based-on-and-why-was-it-implemented-like-this-by-Bill-Gates
 
