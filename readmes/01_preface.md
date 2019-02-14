@@ -22,7 +22,7 @@ The Windows Subsystem for Linux overcomes this limitation by allowing developers
 
 There are some limitations, but those are easily overcome with a good work-flow and an understanding of how to interact between the two file systems. 
 
-This next section will go in-depth between the differences between Windows, Mac, Linux, and explain more about POSIX, UNIX, and non- ~IX Operating Systems. This is here to broaded your understanding, but if you are already comfortable with this topic, then skip to [Why the Subsystem for Linux then?](#why-use-the-subsystem-for-linux?)
+This next section will go in-depth between the differences between Windows, Mac, Linux, and explain more about POSIX, UNIX, and non- ~IX Operating Systems. This is here to broaded your understanding, but if you are already comfortable with this topic, then skip to [Why the Subsystem for Linux then?](#why-use-the-subsystem-for-linux)
  
 ## What is Linux?
 
