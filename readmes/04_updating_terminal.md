@@ -1,5 +1,7 @@
 # Updating your Terminal
 
+NOTE: This page is undergoing an update and will change soon. - Mike Treat 2/14/19
+
 This section will talk about how to update the Terminal's look and feel, as well as how to edit files in Ubuntu through it's command line editor nano.
 
 Typically you will always be working in the Windows FS, but for this task we need to edit a file that lives on the Ubuntu FS. This means that we need to use nano to update the file, since Windows cannot update the Ubuntu file without causing errors.
