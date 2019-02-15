@@ -1,5 +1,7 @@
 # Final Steps
 
+NOTE: This page is undergoing an update and will change soon. - Mike Treat 2/14/19
+
 This final section is here to help fill in the gaps that we missed along the way. Some things had to be left out of the previous sections to make the process quite a bit more smooth, so this section will fill in those missing pieces.
 
 First, lets talk about Directory and File Structure Workflow.
