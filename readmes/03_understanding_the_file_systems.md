@@ -1,5 +1,7 @@
 # Understanding the File Systems
 
+NOTE: This page is undergoing an update and will change soon. - Mike Treat 2/14/19
+
 Before we dive into how to use the Ubuntu App and WSL, lets talk about one of the most important things, which is **knowing your File Systems**
 
 There are 2 files systems here:
