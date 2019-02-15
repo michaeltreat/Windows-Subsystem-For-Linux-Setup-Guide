@@ -67,7 +67,7 @@ __*After some suprisingly super-easy setup, this gives you a truly native POSIX 
 _**However**_, there are a few caveats:
  
 1. The Subsystem does not have access to a GUI, so it cannot run any programs that need one, IE: Browser, Code editor, Notepad, etc. It is strictly a command line. This isn't a huge downside to developers, as we are comfortable enough with working around CLIs in general.
-- Disclaimer: There are some guides which show you how to set up a GUI. We have found this to not be dependable, so we exclude it at this time, and will update this guide with a major update when that ability seems to be much more stable.
+    - Disclaimer: There are some guides which show you how to set up a GUI. We have found this to not be dependable, so we exclude it at this time, and will update this guide with a major update when that ability seems to be much more stable.
 
 1. **You cannot write to Linux files through Windows or Windows apps**. The Linux Subsystem can edit both Windows files and it's own files just fine though. ( This might make it seem like this is pointless, but it's not. It's all in the workflow. )
  
