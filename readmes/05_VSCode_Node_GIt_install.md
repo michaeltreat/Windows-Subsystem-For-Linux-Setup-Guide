@@ -1,5 +1,7 @@
 # Installing VSCode, Node.js, and Git
 
+NOTE: This page is undergoing an update and will change soon. - Mike Treat 2/14/19
+
 At this point, you and your system are totally ready to start developing, so lets get some helpful developer tools and software downloaded and installed.
 
 This section will also talk about why to install something on Windows vs Ubuntu vs Both.
