@@ -32,7 +32,7 @@ Linux is a *family* of operating systems that is open-sourced, and is modelled o
 
 UNIX is more of design structure and philosophy than it is an actual thing like we might think of when we say Mac, PC, or Linux. It's " [a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center..."](https://en.wikipedia.org/wiki/Unix)(- Wikipedia). Essentially, we use the term UNIX to describe a specific type of operating system, much like we do when we call something a Mac or a PC. The only difference here is that this is less of a specific opertaing system, and more of a description of one. IE: Macs are UNIX-like, and PCs are non-UNIX-like.
 
-Linux and Macs are actually both considered 'POISX', as both are derived from POSIX standarads. Okay, so what is POSIX then?
+Linux and Macs are actually both considered 'POSIX', as both are derived from POSIX standarads. Okay, so what is POSIX then?
 
 POSIX (Portable Operating System Interface) is also very similar to what we think of when we talk about UNIX, except that it defines more of a set of standards that operating systems must comply with to be considered "fully POSIX Complatable". POSIX is "[a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems"](https://en.wikipedia.org/wiki/POSIX)(- Wikipedia). Essentially, for something to be POSIX, it must ensure that it can run all POSIX compliant applications seemlessly.
 
