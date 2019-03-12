@@ -82,7 +82,7 @@ Essentially, we use the Subsystem for two things:
 1. To install and run software that only ran in POSIX environments. 
 1. To give us a Linux shell that allows us to run POSIX utilities, services, and commands. 
 
-The vast majority of issues with Web Development on Windows stem from not being able to run software in POSIX environments, and the inability to use many of the utilities and commands that come with a POISX-Compliant Shell. Since the Linux Subsystem is directly mounted to your Windows File System (W-FS), it has access to all of your Windows files. That means the Subsystem can use those files, and can successfully run them through software in it's POSIX environment. 
+The vast majority of issues with Web Development on Windows stem from not being able to run software in POSIX environments, and the inability to use many of the utilities and commands that come with a POSIX-Compliant Shell. Since the Linux Subsystem is directly mounted to your Windows File System (W-FS), it has access to all of your Windows files. That means the Subsystem can use those files, and can successfully run them through software in it's POSIX environment. 
 
 This gives you the best of both worlds in regards to the Windows Shell and Linux Shell. There are still some features that aren't available, but with this now being around for the last 20 months, much of what you need is there, and more are being developed.
  
