@@ -87,4 +87,4 @@ Regardless, if you notice anything wrong with what you would expect, or somethin
 
 And Finally, please feel free to contribute back to this guide in any way. Create a workflow discussion, add bugs, request to take on some PMing, fact/source-check, link to docs, setup a Wiki, grab screenshots from the vidoes, translate, proof-read, request to annote, re-write, or Anything really, even if it's minor like a quick typo fix or a star if you think it's accurate. Thanks! 🔥
 
-[Part 3: Understaning the File-Systems](./03_understanding_the_file_systems.md)
+[Part 3: Understanding the File-Systems](./03_understanding_the_file_systems.md)
