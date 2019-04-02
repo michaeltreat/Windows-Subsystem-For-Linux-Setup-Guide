@@ -97,6 +97,8 @@ cdwr
 
 5. After that you're done in this editor, so press `ctrl + x` at the same time to quit. It will ask if you want to save changes. Hit `y` and the editor will save your changes. It will then ask what to name the file. Just hit enter to keep the same name. 
 
+6. Close the Ubuntu app and open it to enable your changes. You should notice that the color scheme of the Ubuntu app has changed.
+
 And you're done! 
 
 ### Extra Info
