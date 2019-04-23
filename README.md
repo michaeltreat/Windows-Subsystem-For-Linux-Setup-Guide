@@ -1,6 +1,6 @@
 # Windows Subsystem for Linux Setup
 ### Notice:
- The section that talks about permissions is incorrt. Please look at the issues tab for more information.
+ The section that talks about permissions is incorrect. Please look at the issues tab for more information.
  ___
 
 An in-depth guide for developers on how to get started with the Windows Subsystem for Linux.
