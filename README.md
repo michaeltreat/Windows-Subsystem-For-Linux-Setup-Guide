@@ -1,7 +1,7 @@
 # Windows Subsystem for Linux Setup
 ### Notice:
 
-WSL 2 is out! I have not had a change to look at it yet, but I expect that this guide will need another round of updates to account for these changes!
+WSL 2 is out! I have not had a chance to look at it yet, but I expect that this guide will need another round of updates to account for these changes!
 https://devblogs.microsoft.com/commandline/announcing-wsl-2/?fbclid=IwAR3Rq__91IDpIwXbGhMixWECnnatarW29a9_XtxpcEivjBcs6VvdPxK5it0
 
  The section that talks about permissions is incorrect. Please look at the issues tab for more information.
