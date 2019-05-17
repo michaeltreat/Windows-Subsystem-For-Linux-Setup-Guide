@@ -2,20 +2,20 @@
 
 This doc explains how to install PostgreSQL 10 for Windows WSL
 
-We are installing this through the Ubuntu command line since we want this software to run in the Linux environmnet. You can check out the PostgreSQL Linux install docs [here](https://www.postgresql.org/download/linux/ubuntu/).
+We are installing this through the Ubuntu command line since we want this software to run in the Linux environment. You can check out the PostgreSQL Linux install docs [here](https://www.postgresql.org/download/linux/ubuntu/).
 
 ## Install
 1. Open a terminal (the Ubuntu app) and then go to the root of the Ubuntu Subsystem by typing `cd ~ `.
 2. Type `sudo nano ../../etc/apt/sources.list`. This will open a file on Ubuntu using the Nano editor.
 3. At the bottom of this file, paste in this line `deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main`
-  - Change the last part of the line above from `xenial-` to whichever version of Ubunutu you are running.
-4. When that's done, press `ctrl + x` together to close the file, and press `y` when prompted to save your changes, and `enter` to finally close.
+  - Change the last part of the line above from `xenial-` to whichever version of Ubuntu you are running.
+4. When that's done, press `Ctrl + X` together to close the file, and press `y` when prompted to save your changes, and `enter` to finally close.
 5. Next, copy these 2 lines and paste them into your terminal:
 ```
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 sudo apt-get update
 ```
-This will add postgresql 10 to your repositories so you can install the lastest version of Postgresql. Press `enter` when the last line pops up.
+This will add postgresql-10 to your repositories so you can install the latest version of PostgreSQL. Press `enter` when the last line pops up.
 
 6. After the update is complete, enter in this line `sudo apt-get install postgresql-10` and press `y` when prompted.
 
@@ -25,7 +25,7 @@ postgresql-10 runs under the user `postgres`. We need to give this user a passwo
 
 1. To set the password for postgres, type `sudo passwd postgres`.
 2. You will get a prompt to enter in your password. It will not show when you are typing, but it is still registering your key-strokes.
-3. Close and repoen the terminal. 
+3. Close and reopen the terminal.
 
 ## Using psql
 
