@@ -8,7 +8,7 @@ We are installing this through the Ubuntu command line since we want this softwa
 1. Open a terminal (the Ubuntu app) and then go to the root of the Ubuntu Subsystem by typing `cd ~ `.
 2. Type `sudo nano ../../etc/apt/sources.list`. This will open a file on Ubuntu using the Nano editor.
 3. At the bottom of this file, paste in this line `deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main`
-  - Change the last part of the line above from `xenial-` to whichever version of Ubuntu you are running.
+  - Change the last part of the line above from `xenial-` to whichever version of Ubuntu you are running. For example, `bionic-` for Ubuntu 18.04.X.
 4. When that's done, press `Ctrl + X` together to close the file, and press `y` when prompted to save your changes, and `enter` to finally close.
 5. Next, copy these 2 lines and paste them into your terminal:
 ```
@@ -17,7 +17,7 @@ sudo apt-get update
 ```
 This will add postgresql-10 to your repositories so you can install the latest version of PostgreSQL. Press `enter` when the last line pops up.
 
-6. After the update is complete, enter in this line `sudo apt-get install postgresql-10` and press `y` when prompted.
+6. After the update is complete, enter in this line `sudo apt-get install postgresql-10` and press `y` when prompted. If the process aborts automatically, you may have to restart your terminal.
 
 ## Postgres User Setup
 
