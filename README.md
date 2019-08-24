@@ -1,7 +1,9 @@
 # Windows Subsystem for Linux Setup
-### Notice:
+
+## Notice:
 
 WSL 2 is out! I have not had a chance to look at it yet, but I expect that this guide will need another round of updates to account for these changes!
+
 https://devblogs.microsoft.com/commandline/announcing-wsl-2/?fbclid=IwAR3Rq__91IDpIwXbGhMixWECnnatarW29a9_XtxpcEivjBcs6VvdPxK5it0
 
  The section that talks about permissions is incorrect. Please look at the issues tab for more information.
@@ -15,7 +17,7 @@ The Windows Subsystem for Linux feature on Windows 10 enables users to have a Li
 
 For ~~experienced~~ all developers: This is not a VM, a Dual-boot, or a console wrapper like Git Bash or Cygwin. It is a native POSIX environment directly mounted to your Windows File System.
 
-### Video Guide: 
+## Video Guide:
 
 This guide also has a video walkthrough of it on YouTube where it goes into great detail on each section to help provide you with as much context as possible.
 
@@ -27,8 +29,7 @@ Link to the [WSL Video Playlist](https://www.youtube.com/channel/UCh0yhZV7OrQ-vo
 
 ---
 
-
-### What this guide covers
+## What this guide covers
 
 By the end of this guide, you will know:
 
@@ -41,12 +42,12 @@ By the end of this guide, you will know:
 
 ---
 
-### Checklist:
+## Checklist:
 
 Use [This Checklist](https://michaeltreat.github.io/Windows-Subsystem-For-Linux-Setup-Guide/) to help keep track of your progress! It makes use of Local Storage to maintain your progress even if you close the Window. Note:  `CTRL + CLICK` to open in a new window!
 
 There is also a challenge at the bottom designed to help you learn more about the work-flow as well.
 
-#### Ready to begin? 
+## Ready to begin?
 
-Go to Page 1: [Introduction into WSL](./readmes/01_preface.md) 
+Go to Page 1: [Introduction into WSL](./readmes/01_preface.md)

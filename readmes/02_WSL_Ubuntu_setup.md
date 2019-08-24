@@ -3,8 +3,8 @@
 This section will guide you through all the required steps of the checklist. This includes:
 
 1. Enable the WSL Feature through Windows.
-1. Download Ubuntu from the Windows Store.
-1. Setup Ubuntu Username and Password.
+2. Download Ubuntu from the Windows Store.
+3. Setup Ubuntu Username and Password.
 
 By the end of this section you will have completed the absolute minimum steps required to have a native Linux distribution on your Windows 10 PC. It's highly encouraged that you also complete the 'Recommended' portion of the guide as well as it will show you how to properly edit and update Ubuntu (Linux) files vs Windows files, how to setup shortcut aliases for quicker navigation and pathings, and talks about work-flow in general. They are much more concise than the over-view doc.
 
@@ -32,14 +32,14 @@ This guide might not open after restart, so be sure to make note of the url or s
 ### 2. Install the Ubuntu app from the Windows Store.
 
 1. Click here to go to Microsoft store and install the [Ubuntu App](https://www.microsoft.com/en-us/store/p/ubuntu/9nblggh4msv6?activetab=pivot%3aoverviewtab)
-1. Follow the on-screen prompts to install the app. 
-1. When the app is ready, the button that said 'Install' will change to say 'Launch'. Click Launch. This will start the Ubuntu installation. This installation only happens the first time the app is launched. It's the actual Ubuntu (or Linux) OS installing and mounting to your Windows FS. 
+1. Follow the on-screen prompts to install the app.
+1. When the app is ready, the button that said 'Install' will change to say 'Launch'. Click Launch. This will start the Ubuntu installation. This installation only happens the first time the app is launched. It's the actual Ubuntu (or Linux) OS installing and mounting to your Windows FS.
 
 __IMPORTANT:__ *Anytime you uninstall the app and reinstall it you will lose any data that lives on the Linux Filesystem. This includes databases, configs, .profile's, and anything else you might have stored on the NON-Windows Filesystem. Make sure to back this data up!*
 
 ### 3. Finish Installing the Ubuntu App.
 
-1. It will ask you to enter a username. This will be the root / admin user for the Ubuntu FS. 
+1. It will ask you to enter a username. This will be the root / admin user for the Ubuntu FS.
 1. It will then ask you to enter and confirm a password. Also note that it will protect your password by not displaying it to the screen when you type, but it is registering your key strokes.
 
     Note: *Security is important at all levels, so even though you have to use this password often, don't be tempted to make it too simple  (__as I suggested in an earlier version__). Essentially all of your Window's files can be viewed and modified by this user, so keep that password safe and strong.*
@@ -50,14 +50,14 @@ __IMPORTANT:__ *Anytime you uninstall the app and reinstall it you will lose any
 
 ### Minimum section complete
 
-Awesome job, at this point you have 100% installed the Windows Subsystem for Linux. 
+Awesome job, at this point you have 100% installed the Windows Subsystem for Linux.
 
 Make sure you keep in mind that,
 "The Windows FS, is not allowed to write, to the Linux FS, but the Linux FS can write either."
 And
 "Code lives on Windows, Software lives on Linux."
 
-At this point, you can go out and tell people you've used this feature, because you have it. You can get right to work and explore all the things you can do with WSL, or you can continue with this guide to help give you a more structured approach to the workflow, as well as some examples, and more detailed context. 
+At this point, you can go out and tell people you've used this feature, because you have it. You can get right to work and explore all the things you can do with WSL, or you can continue with this guide to help give you a more structured approach to the workflow, as well as some examples, and more detailed context.
 
 Also make sure to checkout and subscribe to the channel on YouTube at: https://www.youtube.com/channel/UCh0yhZV7OrQ-vojQBqSF0RA
 
@@ -72,7 +72,7 @@ You will need to run a quick couple commands in order to run updates software up
 
 1. Type `sudo apt-get update`.
    - [What does sudo apt-get update do?](https://askubuntu.com/questions/222348/what-does-sudo-apt-get-update-do)
-1. Once that is complete, type `sudo apt-get upgrade`. Press `y` when prompted. 
+1. Once that is complete, type `sudo apt-get upgrade`. Press `y` when prompted.
    - [What does sudo apt-get upgrade do?](https://askubuntu.com/questions/94102/what-is-the-difference-between-apt-get-update-and-upgrade)
 1. Once that is done, type `sudo apt autoremove`. This will remove any packages that are no longer needed.
    - [What does sudo apt-get autoremove do?](https://ubuntuforums.org/showthread.php?t=996053)
@@ -83,7 +83,7 @@ The next section will talk about the differences between your Windows File-Syste
 
 And then the rest of the guide will follow that pattern across multiple different topics, in order to help you learn, customize, and get started with using more features with WSL. Eventually, as this grow, we hope to include exploring multi-distro installations, database connections, the different types of Shells and their features and limitations, dual-installation requirements, and potentially even a strong GUI setup.
 
-Regardless, if you notice anything wrong with what you would expect, or something that doesn't work here but does in a stand-alone Linux distro, please create an issue so we can look into it. We can also use this guide as a way to gather functional feedback about how the WSL app works with our actual workflows, and allow it to be a good source of truth for workarounds. 
+Regardless, if you notice anything wrong with what you would expect, or something that doesn't work here but does in a stand-alone Linux distro, please create an issue so we can look into it. We can also use this guide as a way to gather functional feedback about how the WSL app works with our actual workflows, and allow it to be a good source of truth for workarounds.
 
 And finally, please feel free to contribute back to this guide in any way. Create a workflow discussion, add bugs, request to take on some PMing, fact/source-check, link to docs, setup a Wiki, grab screenshots from the videos, translate, proof-read, request to annotate, re-write, or anything really, even if it's minor like a quick typo fix or a star if you think it's accurate. Thanks! 🔥
 

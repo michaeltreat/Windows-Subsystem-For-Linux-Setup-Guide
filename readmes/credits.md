@@ -7,7 +7,7 @@
   - This is actually link wrapped around an image tag of the first youtube video. It will show like a video, but opens up to youtube.
     - Also, need to find out how a click on it opens in a new tab. _blank doesn't work here.
 
-* Cleaned up the flow and organization of the main entry doc. 
+* Cleaned up the flow and organization of the main entry doc.
   - Removed the bottom section ( essentially the credits, updates/versioning section ) into it's own doc.
   - Moved the "Begin here" section to the bottom of the doc where it is more expected to be.
   - Added a checklist section to allow users to track their progress along with the guide.
@@ -42,15 +42,16 @@ Please make sure to request any thing else you would like to see and I will try 
 
 ### Past Additions:
 
-#### 7/18: 
-- Getting new laptop on 7/1/18 and will update the doc in that month. ( Update coming soon! Videos will be included! Minor bug fixes! Delayed due to catcing a cold :feelsgood: :mask:. (DONE!)
+#### 7/18:
 
+- Getting new laptop on 7/1/18 and will update the doc in that month. ( Update coming soon! Videos will be included! Minor bug fixes! Delayed due to catcing a cold :feelsgood: :mask:. (DONE!)
 - More links to all the resources that are used.
 - Video demos, screen shots, and gifs to help visualize what's going on.
 
 ---
 
 ### Credits
+
 Huge thanks to [Izzy Baer](https://github.com/izzybaer) for editing this guide!
 
 Thanks to the [bashonubuntuonwindows community at Reddit](https://www.reddit.com/r/bashonubuntuonwindows/) for proofing this guide each update!
