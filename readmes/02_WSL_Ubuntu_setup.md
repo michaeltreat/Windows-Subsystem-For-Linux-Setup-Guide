@@ -35,14 +35,14 @@ This guide might not open after restart, so be sure to make note of the url or s
 1. Follow the on-screen prompts to install the app. 
 1. When the app is ready, the button that said 'Install' will change to say 'Launch'. Click Launch. This will start the Ubuntu installation. This installation only happens the first time the app is launched. It's the actual Ubuntu (or Linux) OS installing and mounting to your Windows FS. 
 
-__IMPORTANT:__ *Anytime you uninstall the app and reinstall it you will lose any data that lives on the Linux Filesystem. This inlcudes databases, configs, .profile's, and anything else you might have stored on the NON-Windows Filesystem. Make sure to back this data up!*
+__IMPORTANT:__ *Anytime you uninstall the app and reinstall it you will lose any data that lives on the Linux Filesystem. This includes databases, configs, .profile's, and anything else you might have stored on the NON-Windows Filesystem. Make sure to back this data up!*
 
 ### 3. Finish Installing the Ubuntu App.
 
 1. It will ask you to enter a username. This will be the root / admin user for the Ubuntu FS. 
 1. It will then ask you to enter and confirm a password. Also note that it will protect your password by not displaying it to the screen when you type, but it is registering your key strokes.
 
-    Note: *Security is important at all levels, so even though you have to use this password often, don't be tempted to make it too simple  (__as I suggessted in an earlier version__). Essentially all of your Window's files can be viewed and modified by this user, so keep that password safe and strong.*
+    Note: *Security is important at all levels, so even though you have to use this password often, don't be tempted to make it too simple  (__as I suggested in an earlier version__). Essentially all of your Window's files can be viewed and modified by this user, so keep that password safe and strong.*
 
     *Also be careful __not to mess with any permissions__! If you think you need to do that to complete this setup, then stop and reach out to us. You should NOT have to worry about any premissions with this, and if you do get stuck there then we need to know so we can help troubleshoot you through this, or so we know we need to update this guide*.
 
@@ -85,6 +85,6 @@ And then the rest of the guide will follow that pattern across multiple differen
 
 Regardless, if you notice anything wrong with what you would expect, or something that doesn't work here but does in a stand-alone Linux distro, please create an issue so we can look into it. We can also use this guide as a way to gather functional feedback about how the WSL app works with our actual workflows, and allow it to be a good source of truth for workarounds. 
 
-And finally, please feel free to contribute back to this guide in any way. Create a workflow discussion, add bugs, request to take on some PMing, fact/source-check, link to docs, setup a Wiki, grab screenshots from the vidoes, translate, proof-read, request to annote, re-write, or anything really, even if it's minor like a quick typo fix or a star if you think it's accurate. Thanks! 🔥
+And finally, please feel free to contribute back to this guide in any way. Create a workflow discussion, add bugs, request to take on some PMing, fact/source-check, link to docs, setup a Wiki, grab screenshots from the videos, translate, proof-read, request to annotate, re-write, or anything really, even if it's minor like a quick typo fix or a star if you think it's accurate. Thanks! 🔥
 
 [Part 3: Understanding the File-Systems](./03_understanding_the_file_systems.md)

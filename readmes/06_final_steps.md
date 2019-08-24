@@ -86,7 +86,7 @@ Let's install ESlint globally to our system.
 - By moving to our root, we are effectively installing this package globally on the Window's FS, allowing VSCode and other programs to use it.
 - If we use the `-g` flag here instead, it would be installed in the root of your Ubuntu user, and since VSCode is not be able to look up that way it would not be able to use this package.
 2. Type `touch .eslintrc`. The touch command will create the ESlint file we talked about earlier which will define our rules. 
-3. Type` code .eslintrc`. This will tell VSCode to open this file.
+3. Type ` code .eslintrc`. This will tell VSCode to open this file.
 4. Copy the code below and paste it into the `.eslintrc` file:
 
 ```

@@ -30,7 +30,7 @@ When it comes to computers, most people tend to think in terms of Windows and Ma
 
 Linux is a *family* of operating systems that is open-sourced, and is modelled on UNIX. So what is UNIX then? 
 
-UNIX is more of design structure and philosophy than it is an actual thing like we might think of when we say Mac, PC, or Linux. It's " [a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center..."](https://en.wikipedia.org/wiki/Unix)(- Wikipedia). Essentially, we use the term UNIX to describe a specific type of operating system, much like we do when we call something a Mac or a PC. The only difference here is that this is less of a specific operating system, and more of a description of one. IE: Macs are UNIX-like, and PCs are non-UNIX-like.
+UNIX is more of design structure and philosophy than it is an actual thing like we might think of when we say Mac, PC, or Linux. It's "[a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center..."](https://en.wikipedia.org/wiki/Unix)(- Wikipedia). Essentially, we use the term UNIX to describe a specific type of operating system, much like we do when we call something a Mac or a PC. The only difference here is that this is less of a specific operating system, and more of a description of one. IE: Macs are UNIX-like, and PCs are non-UNIX-like.
 
 Linux and Macs are actually both considered 'POSIX', as both are derived from POSIX standards. Okay, so what is POSIX then?
 
@@ -42,7 +42,7 @@ When we say Linux, we are referring to a type of operating system, and usually t
 
 This doesn't mean anything about which one is better or worse. It's like the difference between JavaScript vs PHP vs Python vs C++; It's not a measure of quality, but of structure and ability. There are benefits to one or the other depending on your usage, but that's the reason why all of them are so popular; they all have their uses!
 
-Most consumers don't use Linux because Linux tends to be something developers love to use. It's slimmed down, and typically has minimal UI, exposing only a command line ( think MS-DOS, or 1980's looking computers, or pre-windows/macintosh days). As such, a typical person finds using Windows or Macs easier because they have many consumer features like fleshed out Graphical User Interface, or GUIs ( the visual part ). 
+Most consumers don't use Linux because Linux tends to be something developers love to use. It's slimmed down, and typically has minimal UI, exposing only a command line (think MS-DOS, or 1980's looking computers, or pre-windows/macintosh days). As such, a typical person finds using Windows or Macs easier because they have many consumer features like fleshed out Graphical User Interface, or GUIs (the visual part).
 
 For developers though, they are a bit more experienced with the inner-workings of computers and with Command Line Interfaces ( CLIs), and find that they prefer the Operating Systems with less consumer features more appealing. This is also why most of the servers on the web use some form of Linux.
 
