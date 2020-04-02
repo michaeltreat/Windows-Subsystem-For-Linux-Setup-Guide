@@ -7,8 +7,9 @@ We are installing this through the Ubuntu command line since we want this softwa
 ## Install
 1. Open a terminal (the Ubuntu app) and then go to the root of the Ubuntu Subsystem by typing `cd ~ `.
 2. Type `sudo nano ../../etc/apt/sources.list`. This will open a file on Ubuntu using the Nano editor.
-3. At the bottom of this file, paste in this line `deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main`
-  - Change the last part of the line above from `xenial-` to whichever version of Ubuntu you are running. For example, `bionic-` for Ubuntu 18.04.X.
+3. At the bottom of this file, paste in this line `deb http://apt.postgresql.org/pub/repos/apt/ YOURDISTRO-pgdg main`
+  - Change the last part of the line above from `YOURDISTRO-` to whichever version of Ubuntu you are running.
+  - 18.04.X: `bionic-` 16.04.X: `xenial-` 14.04.X: `trusty-`
 4. When that's done, press `Ctrl + X` together to close the file, and press `y` when prompted to save your changes, and `enter` to finally close.
 5. Next, copy these 2 lines and paste them into your terminal:
 ```
