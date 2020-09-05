@@ -2,9 +2,9 @@
 
 NOTE: This page is undergoing an update and will change soon. - Mike Treat 2/14/19
 
-This section will talk about how to update the Terminal's look and feel, as well as how to edit files in Ubuntu through it's command line editor nano.
+This section will talk about how to update the terminal's look and feel, as well as how to edit files in Ubuntu through its command line editor nano.
 
-Typically you will always be working in the Windows FS, but for this task we need to edit a file that lives on the Ubuntu FS. This means that we need to use nano to update the file, since Windows cannot update the Ubuntu file without causing errors.
+Typically you will always be working in the Windows FS, but for this task we need to edit a file that lives on the Ubuntu FS. This means that we need to use Nano to update the file, since Windows cannot update the Ubuntu file without causing errors.
 
 At the end, this will add some color to your command line, and your command line will be formatted like this:
 
@@ -86,16 +86,16 @@ export wr=~/../../mnt/c/Users/<Windows Username>/
 # This gives us a quick way of moving directly to the Windows root
 alias cdwr='cd "$wr"'
 
-# This brings you to your Windows Working directory immediatly when you open a new terminal.
+# This brings you to your Windows working directory immediately when you open a new terminal.
 cdwr
 
 ```
 
 4. After pasting that in, you will need to add your Windows username right after `/Users/`. IE: `/Users/MichaelLeonTreat/`.
 
-4a. If your path has a space, you can use an backslash escape character to include the space. IE: `/Users/Michael\ Treat/`.
+4a. If your path has a space, you can use a backslash escape character to include the space. IE: `/Users/Michael\ Treat/`.
 
-5. After that you're done in this editor, so press `ctrl + x` at the same time to quit. It will ask if you want to save changes. Hit `y` and the editor will save your changes. It will then ask what to name the file. Just hit enter to keep the same name. 
+5. After that, you're done in this editor, so press `ctrl + x` at the same time to quit. It will ask if you want to save changes. Hit `y`, and the editor will save your changes. It will then ask what to name the file. Just hit enter to keep the same name. 
 
 6. Close the Ubuntu app and open it to enable your changes. You should notice that the color scheme of the Ubuntu app has changed.
 
@@ -128,11 +128,11 @@ Now when you type `cdwr` it will bring you to the root of your Windows User! Thi
 
 `C:\Users\<user>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs`
 
-4. If you want to create your own custom command line prompt you can check out [bashrcgenerator.com](http://bashrcgenerator.com) or [ezprompt.net](http://ezprompt.net) and use the code that provides instead of the code here. 
+4. If you want to create your own custom command line prompt, you can check out [bashrcgenerator.com](http://bashrcgenerator.com) or [ezprompt.net](http://ezprompt.net) and use the code that provides instead of the code here. 
 
 
 ### Installing Software
 
-Before we can dive in and start coding, we should add in some software that will help us streamline the entire process. This next section will explain how to install 3 very common pieces of software, and will also cover the different situations you may encounter while using the two File Systems.
+Before we can dive in and start coding, we should add in some software that will help us streamline the entire process. This next section will explain how to install three very common pieces of software, and will also cover the different situations you may encounter while using the two File Systems.
 
 [Click Here](05_VSCode_Node_GIt_install.md) to move to the next section!

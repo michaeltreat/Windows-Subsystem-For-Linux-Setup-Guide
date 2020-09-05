@@ -4,7 +4,7 @@ NOTE: This page is undergoing an update and will change soon. - Mike Treat 2/14/
 
 This final section is here to help fill in the gaps that we missed along the way. Some things had to be left out of the previous sections to make the process quite a bit more smooth, so this section will fill in those missing pieces.
 
-First, lets talk about Directory and File Structure Workflow.
+First, let's talk about Directory and File Structure Workflow.
 
 
 ## Directory and File Workflow
@@ -34,18 +34,18 @@ Another common use case would be to install a package that would help you in you
 
 **NOTE** - If a program from the Windows FS needs to use something from npm (like VSCode needs ESlint) then you should install it globally and also on your Windows Root. 
 
-This is becaue npm usually looks up the file system tree up to the root to find installed packages. Globally installed packages are in the Ubuntu FS and the Ubuntu FS is not actually a parent node on that tree. If your project or a Windows program needs a package, you should typically either install that package on the Windows root, or that project's root. If you just need to run the package (like jest or nodemon) you can install it globally and the terminal will know where to find it.
+This is because npm usually looks up the file system tree up to the root to find installed packages. Globally installed packages are in the Ubuntu FS and the Ubuntu FS is not actually a parent node on that tree. If your project or a Windows program needs a package, you should typically either install that package on the Windows root, or that project's root. If you just need to run the package (like jest or nodemon) you can install it globally and the terminal will know where to find it.
 
 ## Quality of Life
 
-There are many tools that will help you as a developer that are not actually needed in order to run the programs you are working on. These can be considered Quality of Life enhancers; tools and software that help you in your development process by making things faster and easier. Basically, these are things that will make your life as a dev easier. 
+There are many tools that will help you as a developer that are not actually needed in order to run the programs you are working on. These can be considered quality of life enhancers, tools and software that help you in your development process by making things faster and easier. Basically, these are things that will make your life as a dev easier. 
 
 Some of the more common ones include: 
 
 1. Linters (eslint)
-1. Source / Version Control (git and github)
-1. Auto / Tab completes (scripts and vscode)
-1. Syntax highlighting (vscode)
+1. Source / Version Control (git and GitHub)
+1. Auto / Tab completes (scripts and VSCode)
+1. Syntax highlighting (VSCode)
 1. Command Line Tools (scripts)
 1. Mini Maps
 1. Testing Software
@@ -58,14 +58,14 @@ None of those are crucial in the actual running of your applications, but they w
 Extensions are small snippets of code that extend the functionality of the VSCode editor in some way. We will see an example of using the ESlint extension in the next section.
 
 1. To add extensions to VSCode, open up VSCode and press `Ctrl + Shift + X`. 
-1. The window that pops open may be a bit small, so hover over the edge and pull it to the right to expand it a bit. This will let you see the images and more info about extensions.
-1. Some basic recommended extensions : `eslint, open in browser, Debugger for Chrome, html snippets, prettier`
+1. The window that pops open maybe a bit small, so hover over the edge and pull it to the right to expand it a bit. This will let you see the images and more info about extensions.
+1. Some basic recommended extensions: `eslint, open in browser, Debugger for Chrome, html snippets, prettier`
 
 We will be using ESlint in the next section so make sure you grab that one, but you can read info about the other ones in VSCode.
 
 ### Linters and ESlint
 
-One of the most important tools you will need is a linter. This section will help you get that set up. 
+One of the most important tools you will need is a linter. This section will help you get that setup. 
 
 #### What is a Linter? 
 A linter is a program or tool that will scour your code looking for common syntax errors and alert you to them right away. This helps you immensely since you do not have to wait for your programs to run first before finding the bugs.
@@ -74,7 +74,7 @@ Another common term is a linter file. A linter file defines the rules you want t
 
 Linters are also extremely useful when you are learning to code, as it helps you adhere to a stricter, more conventional code writing style. Without one it can be easier to ignore your indentations, which will not only look sloppy, but it will make the development process harder to follow and learn. 
 
-Lets get one setup!
+Let's get one setup!
 
 #### ESlint
 
@@ -134,8 +134,8 @@ This is a .eslintrc file, and it defines a bunch of basic rules that will help w
 
 # THE END!  
 
-Congrats, you're all done! Great job making it through this doc! One of the reasons this doc is a bit more lengthy than the rest is because we are using a Hybrid system with WSL. It is not as straight forward as just working in one OS and one FS, but the benefits here are great! 
+Congrats, you're all done! Great job making it through this doc! One of the reasons this doc is a bit more lengthy than the rest is because we are using a hybrid system with WSL. It is not as straightforward as just working in one OS and one FS, but the benefits here are great! 
 
-If you found this guide beneficial then please reach out to me and let me know! Even just a comment on this guide would be greatly appreciated! Thanks and good luck!
+If you found this guide beneficial, then please reach out to me and let me know! Even just a comment on this guide would be greatly appreciated! Thanks and good luck!
 
 **Don't forget to run `sudo apt-get upgrade` when you have time!**

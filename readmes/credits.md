@@ -1,7 +1,7 @@
 
 #### Change log 2/8/2019:
 
-##### Git Hub:
+##### GitHub:
 
 * Added "embedded" video into video section.
   - This is actually link wrapped around an image tag of the first youtube video. It will show like a video, but opens up to youtube.
@@ -14,7 +14,7 @@
 
 * Added gh-pages branch to host the checklist.
 
-##### Youtube:
+##### YouTube:
 
 * Cleaned up and standardized the language between all videos to become more consistant.
 * Added a new thumbnail image to each video to better identify which video is which.
@@ -28,7 +28,7 @@
 
 ### Upcoming Additions:
 
-#### Release date: 01/19
+#### Release date: 1/19
 
 **Keep an eye out for an update! I will be working on this over the next few days and hope to have it completed by 1/13 or 1/20!**
 
