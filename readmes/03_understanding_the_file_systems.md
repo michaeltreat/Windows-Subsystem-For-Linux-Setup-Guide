@@ -13,7 +13,7 @@ It is very important to know which file system you are in.
 
 - Open the Ubuntu app and type `pwd`. Assuming you haven't changed anything yet, you'll notice that it says something like `/home/<your username>`.
 
-This `/home/` means that you are in the Ubuntu FS. 
+This `/home/` means that you are in the Ubuntu FS.
 
 - Now type `cd ../../` to bring you to the level above `/home/`, then type `ls`. This is the top-most level of the Ubuntu FS.
 
@@ -23,7 +23,7 @@ This `/home/` means that you are in the Ubuntu FS.
 
 - Type `cd <hard_drive_letter>`, then `ls`. This will now show you the top level of your hard drive. You may likely see some errors like `Cannot Read Symbolic Link` and ` Permission denied`. You can ignore these errors. Symbolic links are just shortcuts to files that Ubuntu cannot interpret, and keeping permissions as they are is highly recommended. You will likely never have a situation where you need to handle permissions between Windows and Ubuntu, as you will never need to edit or install any Windows system files with Ubuntu or vice versa.
 
-You are actually in the Windows File System now as well! If you were to create a file here, you would be adding it to the Windows File System, and it would be a Windows file. This is important because one of the rules here is that while **Ubuntu can _read and write_ both** Ubuntu and Windows files, **Windows can only _read and write_ Windows files**, and **_read_ Ubuntu Files**, but it **_cannot_ write Ubuntu files**. Knowing which files belong to which FS is important because of this. 
+You are actually in the Windows File System now as well! If you were to create a file here, you would be adding it to the Windows File System, and it would be a Windows file. This is important because one of the rules here is that while **Ubuntu can _read and write_ both** Ubuntu and Windows files, **Windows can only _read and write_ Windows files**, and **_read_ Ubuntu Files**, but it **_cannot_ write Ubuntu files**. Knowing which files belong to which FS is important because of this.
 
 - Now type `cd ~` then `pwd` to bring you back to your root. Can you guess where it takes you? Back to your Ubuntu User's root. This is nice, but also kind of tedious since most of our work is going to be done on the Windows FS side, and typing cd `../../mnt/c/Users/<user>` at the beginning of everything would get old fast. No worries though, the next section will show you a neat trick to make navigating between the two FS's much easier!
 
@@ -35,4 +35,4 @@ In the off chance that you do need to edit a Ubuntu file, then you should use th
 
 ### Updating your Terminal
 
-Click [Next](04_updating_terminal.md) to update your Terminal's look and feel! 
+Click [Next](04_updating_terminal.md) to update your Terminal's look and feel!

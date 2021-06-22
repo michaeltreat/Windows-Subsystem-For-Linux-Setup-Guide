@@ -12,7 +12,7 @@ At the end, this will add some color to your command line, and your command line
 
 IE: about_me[monday-lab x!+]$
 
-### Updating the .profile file
+## Updating the .profile file
 
 In order to change how your terminal looks, we need to add some code to a file that lives in your Ubuntu user's root directory.
 
@@ -20,7 +20,7 @@ In order to change how your terminal looks, we need to add some code to a file t
 2. Type `sudo nano .profile`. This will open the file in the command line editor Nano.
 3. Delete anything that's in the file, then copy and paste this code into the editor. You can paste with right-click:
 
-```
+```bash
 # get current branch in git repo
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
@@ -71,12 +71,9 @@ function parse_git_dirty {
 # PS1 is what actually defines what you command line prompt looks like.
 export PS1="\[\e[m\]\[\e[36m\]\W\[\e[m\]\[\e[33m\]\`parse_git_branch\`\\$ "
 
-
 # Everything above this point is used to change how your terminal looks. If you ever want to update your terminals look, change things above here.
 
-
 # Nothing below here will change how your terminal looks, rather, it will change some things about how it works.
-
 
 # This allows you to switch between the Ubuntu root and your Windows Root.
 
@@ -86,9 +83,10 @@ export wr=~/../../mnt/c/Users/<Windows Username>/
 # This gives us a quick way of moving directly to the Windows root
 alias cdwr='cd "$wr"'
 
-# This brings you to your Windows working directory immediately when you open a new terminal.
-cdwr
 
+# This brings you to your Windows working directory immediately when you open a new terminal.
+
+cdwr
 ```
 
 4. After pasting that in, you will need to add your Windows username right after `/Users/`. IE: `/Users/MichaelLeonTreat/`.
@@ -99,15 +97,15 @@ cdwr
 
 6. Close the Ubuntu app and open it to enable your changes. You should notice that the color scheme of the Ubuntu app has changed.
 
-And you're done! 
+And you're done!
 
-### Extra Info
+## Extra Info
 
 1. In the file you pasted there was a section at the bottom that exports `wr` and sets up the `cdwr` alias. What this does is adds a unique variable and a command to your terminal.
 
 - **$wr :**
 
-If you want to use a relative path, but don't want to go all the way up to the Ubuntu FS and then work down to the Windows FS, you can use the `$wr` variable as a shortcut to the Windows root instead. IE: 
+If you want to use a relative path, but don't want to go all the way up to the Ubuntu FS and then work down to the Windows FS, you can use the `$wr` variable as a shortcut to the Windows root instead. IE:
 
 `cd $wr/about_me/scripts`. Instead of:
 
@@ -117,7 +115,7 @@ This also works with tab completion as well, which is awesome.
 
 - **cdwr :**
 
-Now when you type `cdwr` it will bring you to the root of your Windows User! This makes navigating between the two file systems super easy. 
+Now when you type `cdwr` it will bring you to the root of your Windows User! This makes navigating between the two file systems super easy.
 
 - To navigate to the Ubuntu root, you will type the normal `cd ~`.
 - To navigate to the Windows Root, you will type `cdwr` with NO space!
@@ -130,8 +128,7 @@ Now when you type `cdwr` it will bring you to the root of your Windows User! Thi
 
 4. If you want to create your own custom command line prompt, you can check out [bashrcgenerator.com](http://bashrcgenerator.com) or [ezprompt.net](http://ezprompt.net) and use the code that provides instead of the code here. 
 
-
-### Installing Software
+## Installing Software
 
 Before we can dive in and start coding, we should add in some software that will help us streamline the entire process. This next section will explain how to install three very common pieces of software, and will also cover the different situations you may encounter while using the two File Systems.
 
