@@ -21,7 +21,7 @@ For ~~experienced~~ all developers: This is not a VM, a Dual-boot, or a console 
 
 This guide also has a video walkthrough of it on YouTube where it goes into great detail on each section to help provide you with as much context as possible.
 
-It's recommended you watch the videos while you go through this guide as they will help clairify many of these points with visuals.
+It's recommended you watch the videos while you go through this guide as they will help clarify many of these points with visuals.
 
 Link to the [WSL Video Playlist](https://www.youtube.com/channel/UCh0yhZV7OrQ-vojQBqSF0RA/).
 
@@ -34,7 +34,7 @@ Link to the [WSL Video Playlist](https://www.youtube.com/channel/UCh0yhZV7OrQ-vo
 By the end of this guide, you will know:
 
 1. What WSL is, and why it's important.
-1. How to install WSL and the free Ubuntu App.
+1. How to install WSL and the free Ubuntu app.
 1. How the two file systems work together, and how you should work with them.
 1. How to update your terminal, and edit WSL files.
 1. Where, why, and how to install different programs and software.
@@ -44,7 +44,7 @@ By the end of this guide, you will know:
 
 ## Checklist:
 
-Use [This Checklist](https://michaeltreat.github.io/Windows-Subsystem-For-Linux-Setup-Guide/) to help keep track of your progress! It makes use of Local Storage to maintain your progress even if you close the Window. Note:  `CTRL + CLICK` to open in a new window!
+Use [This Checklist](https://michaeltreat.github.io/Windows-Subsystem-For-Linux-Setup-Guide/) to help keep track of your progress! It makes use of Local Storage to maintain your progress even if you close the window. Note:  `CTRL + CLICK` to open in a new window!
 
 There is also a challenge at the bottom designed to help you learn more about the work-flow as well.
 

@@ -2,9 +2,9 @@
 
 NOTE: This page is undergoing an update and will change soon. - Mike Treat 2/14/19
 
-At this point, you and your system are totally ready to start developing, so lets get some helpful developer tools and software downloaded and installed.
+At this point, you and your system are totally ready to start developing, so let's get some helpful developer tools and software downloaded and installed.
 
-This section will also talk about why to install something on Windows vs Ubuntu vs Both.
+This section will also talk about why to install something on Windows vs. Ubuntu vs. Both.
 
 After finishing this doc you will have VSCode, Node.js, and Git installed on your machine.
 
@@ -25,13 +25,14 @@ Notice how Ubuntu knows about a program that is installed on the Windows FS? Thi
 
 ### Notes on VSCode
 
-1. Remember that Windows and Windows programs cannot edit Ubuntu files. If you try, you may get a permission denied error or end up with a broken file. If you need to edit Ubuntu files, use Ubuntu's built in editor nano, or another Ubuntu command line editor.
-2. When you open VSCode, you will likely see an error about it not being able to find Git. We will address that later on in this doc.
-3. VSCode comes with an integrated terminal. By default, it will use the Windows PowerShell program. Check out [this doc](https://docs.microsoft.com/en-us/windows/wsl/interop) for more information on how to use WSL and Ubuntu inside of Windows PowerShell.
+1. Remember that Windows and Windows programs cannot edit Ubuntu files. If you try, you may get a permission denied error or end up with a broken file. If you need to edit Ubuntu files, use Ubuntu's built-in editor Nano, or another Ubuntu command line editor.
+1. When you open VSCode, you will likely see an error about it not being able to find Git. We will address that later on in this doc. 
+1. VSCode comes with an integrated terminal. By default, it will use the Windows PowerShell program. Check out [this doc]() for more information on how to use WSL and Ubuntu inside of Windows PowerShell.
+
 
 ## Node.js - Version 10.x
 
-JavaScript was initially run client-side in the browser, but the with addition of Node.js, it gained back-end capabilities. Node.js is a runtime environment built off of Chromes V8 JavaScript engine.
+JavaScript was initially  run client-side in the browser, but with the addition of Node.js, it gained back-end capabilities. Node.js is a runtime environment built off of Chrome's V8 JavaScript engine.
 
 You will be using Node.js to add tools, libraries, and frameworks to your projects, and you will also use it as a REPL environment for working on your code.
 
@@ -60,33 +61,37 @@ The second line will show up once the first line has finished. Press enter when 
 
 Git is a version control system that allows you to track your projects' changes over time, and allows for an extremely collaborative process to exist.
 
-In our case, we have an uncommon situation when it comes to Git. Git is already installed on Ubuntu as it comes built in and ready to use right out of the gate, so that's totally good to go.
+In our case, we have an uncommon situation when it comes to Git. Git is already installed on Ubuntu as it comes built-in and ready to use right out of the gate, so that's totally good to go.
 
-VSCode however also uses Git for it's source-control tool to work. But since VSCode is a Windows application, it doesn't know how to use Ubuntu's version of Git. On top of that, if VSCode ever needed to manipulate one of the Ubuntu Git's files, it would break since Windows Applications cannot manipulate Ubuntu Files.
+VSCode however also uses Git for its source control tool to work. But since VSCode is a Windows application, it doesn't know how to use Ubuntu's version of Git. On top of that, if VSCode ever needed to manipulate one of the Ubuntu Git's files, it would break since Windows Applications cannot manipulate Ubuntu Files.
 
 This is why it is recommended that as much of your software is installed on Ubuntu as possible, so that they can talk to each other and update each other's files easily. In this case, we needed VSCode on Windows, and it just so happened that VSCode needs git, so in these situations, it is totally fine to install both pieces of software on the Windows FS.
 
 But now there are two versions of Git installed right? Correct. The nice thing about WSL is that because of the way the PATH is setup, it knows which one to use and when. More on that after we install Git on Windows.
 
 1. Visit [git-scm.com](https://git-scm.com/) to download and install Git.
-2. Follow the onscreen instructions.
-   - Choose the default values for each prompt
-   - **EXCEPT** when it asks you to `Choose the default editor used by Git`, click the drop down and choose the VSCode option.
-   - This will allow you to handle merge conflicts in your editor instead of in your command line which is another reason to have Git on Windows as well.
+
+2. Follow the onscreen instructions. 
+- Choose the default values for each prompt
+- **EXCEPT** when it asks you to `Choose the default editor used by Git`, click the drop-down and choose the VSCode option. 
+- This will allow you to handle merge conflicts in your editor instead of in your command line, which is another reason to have Git on Windows.
+
 3. Continue choosing the default options to finish the installation.
 
 NOTE: Git for Windows also comes with a terminal called Git Bash. This is what a lot of Windows users have used in the past as their solution to the POSIX / Unix-like terminal problem. We will be using the Ubuntu app instead.
 
 ### Verifying Git
 
-Now that we have Git installed on both of the file systems, lets check which Git Ubuntu is using.
 
-1. Open a new terminal (the Ubuntu App) and type `whereis git`. This will show you all the places git is on your computer.
-2. Now type `which git`. This will show you which git is executed when you type `git`. Notice that it only shows the one in Ubuntu - that is the git that will be used when you are in your terminals.
-3. Now type `code` to open VSCode.
-4. Then, inside the editor, press `Ctrl + Shift + U` to open the output section. To the right of the output there is a drop down. Choose the one that says Git.
-5. It should say something like this: `Using git 2.17.0.windows.1 from C:\Program Files\Git\cmd\git.exe`
-    - This means that it will use this Git to handle it's source control tool.
+Now that we have Git installed on both of the file systems, let's check which Git Ubuntu is using.
+
+1. Open a new terminal (the Ubuntu app) and type `whereis git`. This will show you all the places git is on your computer.
+1. Now type `which git`. This will show you which git is executed when you type `git`. Notice that it only shows the one in Ubuntu - that is the git that will be used when you are in your terminals.
+1. Now type `code` to open VSCode.
+1. Then, inside the editor, press `Ctrl + Shift + U` to open the output section. To the right of the output there is a drop-down. Choose the one that says Git.
+1. It should say something like this: `Using git 2.17.0.windows.1 from C:\Program Files\Git\cmd\git.exe`
+    - This means that it will use this Git to handle its source control tool.
+
 
 ### Set the Git Config
 
