@@ -30,6 +30,14 @@ This will install the needed files. Follow any directions that pop up and restar
 
 This guide might not open after restart, so be sure to make note of the url or star this repo.
 
+### 1.5. Upgrade to WSL 2 (Optional - this can be done at any time!)
+
+Since making this guide Microsoft has released WSL 2. You can install WSL 2 at anytime, even if you skip it here, so this is totally optional for you. Once you have WSL2  installed you may switch back and forth between versions 1 and 2 at anytime, and, you can even have multiple distros using different WSL versions as well, so it is very flexible.
+
+If you would like to install/upgrade to WSL 2 then follow the instructions in [these docs](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-2---check-requirements-for-running-wsl-2).
+
+If you do decide to install WSL2, then the steps below will follow along with step 6 in the above docs ( which is just installing your preferred distro.) Either way, nothing ahead will change regardless if you chose WSL 1 or WSL 2.
+
 ### 2. Install the Ubuntu app from the Windows Store.
 
 
