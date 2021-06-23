@@ -57,6 +57,8 @@ The second line will show up once the first line has finished. Press enter when 
 2. Type `node -e 'console.log("works")'`
 3. If you get a response back that says `works` then you're all good to go!
 
+_**Note :**_ You may run into an issue with the `-g` global flags when working with Node on the Windows side vs the Linux side. Check out [this doc](https://github.com/michaeltreat/Windows-Subsystem-For-Linux-Setup-Guide/blob/master/readmes/installs/NodeGlobal_Notes.md) for a workaround.
+
 ## Git
 
 Git is a version control system that allows you to track your projects' changes over time, and allows for an extremely collaborative process to exist.
