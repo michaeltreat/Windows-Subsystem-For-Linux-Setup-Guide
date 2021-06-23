@@ -1,6 +1,6 @@
 # Windows Subsystem for Linux Setup
 
-This is an in-depth, step-by-step guide for developers on how to get started with the Windows Subsystem for Linux, version 1. 
+This is an in-depth, step-by-step guide for developers on how to get started with the Windows Subsystem for Linux.
 
 ![Microsoft and Linux](https://i.imgur.com/GOij8My.png)
 
