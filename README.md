@@ -1,12 +1,12 @@
 # Windows Subsystem for Linux Setup
 
-This is an in-depth, step-by-step guide for developers on how to get started with the Windows Subsystem for Linux.
+This is an in-depth, step-by-step guide for developers on how to get started with the Windows Subsystem for Linux, version 1. 
 
 ![Microsoft and Linux](https://i.imgur.com/GOij8My.png)
 
 Check out the Microsoft docs on WSL for more information: https://docs.microsoft.com/en-us/windows/wsl/about
 
-Check here for docs on how to upgrade to [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-2---check-requirements-for-running-wsl-2)
+_**NOTE :**_ Since making this guide, Microsoft has released WSL version 2. Check here for the docs on how to install or upgrade to [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-2---check-requirements-for-running-wsl-2)
 
 ---
 
