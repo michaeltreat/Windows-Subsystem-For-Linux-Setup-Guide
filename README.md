@@ -1,35 +1,12 @@
 # Windows Subsystem for Linux Setup
 
-## Notice:
-
-WSL 2 is out! I have not had a chance to look at it yet, but I expect that this guide will need another round of updates to account for these changes!
-
-https://devblogs.microsoft.com/commandline/announcing-wsl-2/?fbclid=IwAR3Rq__91IDpIwXbGhMixWECnnatarW29a9_XtxpcEivjBcs6VvdPxK5it0
-
- The section that talks about permissions is incorrect. Please look at the issues tab for more information.
- ___
-
-An in-depth guide for developers on how to get started with the Windows Subsystem for Linux.
+This is an in-depth, step-by-step guide for developers on how to get started with the Windows Subsystem for Linux.
 
 ![Microsoft and Linux](https://i.imgur.com/GOij8My.png)
 
-The Windows Subsystem for Linux feature on Windows 10 enables users to have a Linux enviroment fully integrated into their Windows PC.
-
-For ~~experienced~~ all developers: This is not a VM, a Dual-boot, or a console wrapper like Git Bash or Cygwin. It is a native POSIX environment directly mounted to your Windows File System.
-
-## Video Guide:
-
-This guide also has a video walkthrough of it on YouTube where it goes into great detail on each section to help provide you with as much context as possible.
-
-It's recommended you watch the videos while you go through this guide as they will help clarify many of these points with visuals.
-
-Link to the [WSL Video Playlist](https://www.youtube.com/channel/UCh0yhZV7OrQ-vojQBqSF0RA/).
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ixqKqHfCDWM" target="_blank"><img src="http://img.youtube.com/vi/ixqKqHfCDWM/0.jpg" alt="Windows Subsystem for Linux Part One: Introduction into WSL"/></a>
+Check out the Microsoft docs on WSL for more information: https://docs.microsoft.com/en-us/windows/wsl/about
 
 ---
-
-## What this guide covers
 
 By the end of this guide, you will know:
 
@@ -39,6 +16,16 @@ By the end of this guide, you will know:
 1. How to update your terminal, and edit WSL files.
 1. Where, why, and how to install different programs and software.
 1. Additional important information.
+
+---
+
+
+## Video Guide:
+
+This guide comes with a video walkthrough:
+[WSL Video Playlist](https://www.youtube.com/channel/UCh0yhZV7OrQ-vojQBqSF0RA/).
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ixqKqHfCDWM" target="_blank"><img src="http://img.youtube.com/vi/ixqKqHfCDWM/0.jpg" alt="Windows Subsystem for Linux Part One: Introduction into WSL"/></a>
 
 ---
 
