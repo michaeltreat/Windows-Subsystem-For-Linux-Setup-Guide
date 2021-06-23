@@ -6,6 +6,8 @@ This is an in-depth, step-by-step guide for developers on how to get started wit
 
 Check out the Microsoft docs on WSL for more information: https://docs.microsoft.com/en-us/windows/wsl/about
 
+Check here for docs on how to upgrade to [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-2---check-requirements-for-running-wsl-2)
+
 ---
 
 By the end of this guide, you will know:
