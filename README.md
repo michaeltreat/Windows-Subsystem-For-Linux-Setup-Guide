@@ -1,6 +1,8 @@
 # Windows Subsystem for Linux Setup
+Note: This guide may be obsolete. I looked through the MSFT docs for WSL 2 and it seems to have addressed many of the issues this guide highlighted. It may not even be necessary to seperate the two filesystems like discussed in this guide anymore. It looks like the user can choose between WSL 1 or 2, so I will keep this guide for those who still one to use WSL 1, but as of now this is (officially - lol) not going to be maintained by me. As I use WSL again I may come back here and provide more clairity on the topic, but for now, just use the Microsoft docs for WSL setup. Thanks - Mike
 
 This is an in-depth, step-by-step guide for developers on how to get started with the Windows Subsystem for Linux.
+
 
 ![Microsoft and Linux](https://i.imgur.com/GOij8My.png)
 
